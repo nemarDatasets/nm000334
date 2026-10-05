@@ -1,0 +1,46 @@
+{
+    "Name": "Schrag2026Pediatric: pediatric SSVEP-BCI dataset in children and adolescents",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Emily Schrag",
+        "Daniel Comaduran Marquez",
+        "Adam Kirton",
+        "Eli Kinney-Lang"
+    ],
+    "EthicsApprovals": [
+        "University of Calgary Conjoint Health Research Ethics Board, REB25-0723 (per the primary publication: informed assent/parental consent obtained for all participants; participants/guardians explicitly consented to sharing de-identified data)."
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.21203/rs.3.rs-9347306/v1",
+        "https://doi.org/10.5281/zenodo.20848097"
+    ],
+    "Keywords": [
+        "SSVEP",
+        "BCI",
+        "pediatric",
+        "children",
+        "adolescents",
+        "stimulus personalization",
+        "comfort",
+        "EEG"
+    ],
+    "DatasetDOI": "doi:10.5281/zenodo.20848097",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.21203/rs.3.rs-9347306/v1",
+            "URL": "https://doi.org/10.5281/zenodo.20848097"
+        }
+    ],
+    "PublicationYear": 2026
+}

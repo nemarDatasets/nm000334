@@ -1,0 +1,240 @@
+_dataset:
+  class: Schrag2026Pediatric
+  code: Schrag2026Pediatric
+  doi: 10.21203/rs.3.rs-9347306/v1
+  interval:
+  - 0.0
+  - 5.0
+  n_subjects: 47
+  paradigm: ssvep
+acquisition:
+  cap_manufacturer: g.tec
+  channel_types:
+    eeg: 16
+  electrode_material: Ag/AgCl gel
+  electrode_type: wet
+  ground: Fpz
+  hardware: g.tec g.GAMMAsys + g.USBamp + g.GAMMAcap
+  line_freq: 60.0
+  montage: standard_1020
+  reference: earlobe
+  sampling_rate: 256.0
+  sensor_type: active
+  sensors:
+  - Fz
+  - F4
+  - F8
+  - C3
+  - Cz
+  - C4
+  - T8
+  - P7
+  - P3
+  - P4
+  - P8
+  - PO7
+  - PO8
+  - O1
+  - Oz
+  - O2
+  software: Unity3D + BCI-Essentials
+bci_application:
+  applications:
+  - navigation game
+  environment: lab
+  online_feedback: true
+data_structure:
+  n_trials: 12
+  trials_context: Each game session contains ~30-160 movement trials (one per 5 s SSVEP stimulation period). Of these, exactly
+    12 are ground-truth target events (4 frequencies x 3 predefined target positions, minus skipped events on certain map
+    layouts; see Notes.pdf in the Zenodo deposit). The remaining trials are user-driven movements whose labels are fbCCA classifier
+    outputs, not ground truth -- this loader exposes all classifier-labelled trials with non-empty Selected SPO.
+documentation:
+  associated_paper_doi: 10.21203/rs.3.rs-9347306/v1
+  country: CA
+  data_url: https://doi.org/10.5281/zenodo.20848097
+  description: 'Open-access pediatric SSVEP-BCI dataset: 47 children aged 5-18 performing a personalization pipeline and an
+    online 4-target SSVEP game with both personal and standard stimuli.'
+  doi: 10.5281/zenodo.20848097
+  ethics_approval:
+  - University of Calgary Conjoint Health Research Ethics Board, REB25-0723
+  institution: University of Calgary
+  investigators:
+  - Emily Schrag
+  - Daniel Comaduran Marquez
+  - Adam Kirton
+  - Eli Kinney-Lang
+  keywords:
+  - SSVEP
+  - BCI
+  - pediatric
+  - children
+  - adolescents
+  - stimulus personalization
+  - comfort
+  - EEG
+  license: CC-BY-4.0
+  publication_year: 2026
+  repository: Zenodo
+  senior_author: Eli Kinney-Lang
+experiment:
+  class_labels:
+  - '6.25'
+  - '10'
+  - '11.11'
+  - '14.28'
+  events:
+    '10': 2
+    '11.11': 3
+    '14.28': 4
+    '6.25': 1
+  feedback_type: visual
+  mode: online
+  n_classes: 4
+  paradigm: ssvep
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: flickering visual targets (4-target game)
+  study_design: 'Per-subject pipeline: (1) personalization (12 stimuli at 10 Hz, 5 s on / 5 s baseline / pairwise comfort,
+    ~20 sets), (2) online 4-target SSVEP game played twice -- personal stimulus and standard high-contrast stimulus across
+    two themed maps.'
+  synchronicity: synchronous
+  task_type: SSVEP-controlled videogame (4-target navigation)
+  trial_duration: 5.0
+file_format: XDF
+paradigm_specific:
+  detected_paradigm: ssvep
+  stimulus_frequencies_hz:
+  - 6.25
+  - 10.0
+  - 11.11
+  - 14.28
+participants:
+  age_max: 18
+  age_mean: 12.6
+  age_min: 5
+  age_std: 3.9
+  ages:
+  - 12
+  - 10
+  - 12
+  - 13
+  - 16
+  - 14
+  - 9
+  - 17
+  - 16
+  - 8
+  - 11
+  - 9
+  - 10
+  - 17
+  - 17
+  - 6
+  - 16
+  - 17
+  - 15
+  - 10
+  - 12
+  - 8
+  - 11
+  - 17
+  - 17
+  - 17
+  - 9
+  - 17
+  - 17
+  - 17
+  - 17
+  - 18
+  - 10
+  - 12
+  - 11
+  - 9
+  - 17
+  - 14
+  - 5
+  - 15
+  - 15
+  - 16
+  - 5
+  - 8
+  - 6
+  - 7
+  - 10
+  bci_experience: naive
+  gender:
+    female: 19
+    male: 28
+  health_status: healthy
+  n_subjects: 47
+  sexes:
+  - male
+  - female
+  - female
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - female
+  - male
+  - male
+  - male
+  - female
+  - female
+  - female
+  - female
+  - female
+  - male
+  - female
+  - male
+  - male
+  - male
+  - male
+  - female
+  - female
+  - male
+  - female
+  - female
+  - female
+  - female
+  - female
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - male
+  - female
+  - male
+  - female
+  - male
+  - female
+  - male
+  species: human
+preprocessing:
+  data_state: raw
+runs_per_session: 2
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - fbCCA
+  feature_extraction:
+  - fbCCA
+  frequency_bands:
+    analysis:
+    - 3.0
+    - 29.0
+tags:
+  modality:
+  - visual
+  pathology:
+  - healthy
+  type:
+  - perception
