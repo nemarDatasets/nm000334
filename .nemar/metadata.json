@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Emily Schrag": {
+      "orcid": "0009-0000-1607-2621"
+    },
+    "Daniel Comaduran Marquez": {
+      "orcid": "0000-0002-1674-4835"
+    },
+    "Adam Kirton": {
+      "orcid": "0000-0001-5209-3374"
+    },
+    "Eli Kinney-Lang": {
+      "orcid": "0000-0002-5163-3073"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.21203/rs.3.rs-9347306/v1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.5281/zenodo.20848097",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000334",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000334",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.19440997",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Schrag2026Pediatric: pediatric SSVEP-BCI dataset in children and adolescents",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "255 MB (77 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A pediatric steady-state visual evoked potential (SSVEP) brain-computer interface dataset recorded from 47 healthy, BCI-naive children and adolescents aged 5-18 years. Each participant completed a stimulus personalization and comfort-rating pipeline, then played an online four-target SSVEP-controlled navigation game twice, once with a personalized stimulus and once with a standard high-contrast stimulus. Sixteen-channel EEG was recorded at 256 Hz, and events are annotated with HED tags. The data are raw and unpreprocessed. Only 12 trials per session are ground-truth target events; the remaining trial labels are filter-bank CCA classifier outputs rather than ground truth.",
+  "methods_description": "16-channel wet Ag/AgCl EEG (g.tec g.USBamp, g.GAMMAcap, 10-20 montage, earlobe reference, Fpz ground) recorded at 256 Hz in a single session of two runs. Stimuli flickered at 6.25, 10, 11.11 and 14.28 Hz in a Unity3D/BCI-Essentials game with online filter-bank CCA classification and visual feedback. Personalization involved 12 stimuli at 10 Hz with pairwise comfort comparisons.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "steady-state visual evoked potential"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "children and adolescents"
+    },
+    {
+      "term": "stimulus personalization"
+    },
+    {
+      "term": "comfort"
+    }
+  ],
+  "source_hash": "c2dff015e91b1cdcf527b40f456fc73d3db0fe542bddfb1c2079cfc8dd56bdb8"
+}
