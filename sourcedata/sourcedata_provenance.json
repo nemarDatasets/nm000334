@@ -1,1 +1,2703 @@
-../.git/annex/objects/kP/0J/SHA256E-s83897--9f21e5a506100cbe666f5f66287e6b6ef3723dc01d010d20ce65e5055b75dedf.json/SHA256E-s83897--9f21e5a506100cbe666f5f66287e6b6ef3723dc01d010d20ce65e5055b75dedf.json
+{
+ "dataset": "nm000334",
+ "moabb_class": "Schrag2026Pediatric",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.Schrag2026Pediatric.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/Schrag2026Pediatric/MNE-schrag2026-data",
+ "license": "CC-BY-4.0",
+ "doi": "10.21203/rs.3.rs-9347306/v1",
+ "naming": "upstream_filenames_restored",
+ "n_files": 448,
+ "total_bytes": 1591308448,
+ "files": [
+  {
+   "file": "P001/Comfort/P001_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "7a2bb430edac4a821facf6b1b18fa2ada93e1b5fdf43715afebfb2f4d800101d",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Comfort/P001_relative.csv",
+   "bytes": 1245,
+   "sha256": "ff36170cd646e879164ea7264c25ad7b44e240a3d2714235886ed8aa9fa0f010",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Comfort/P001_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "f4144b9ee0b3aea38b2abea0af38ae3f6218627b20285d40317fa1c177a87d86",
+   "subject": "1"
+  },
+  {
+   "file": "P001/EEG/sub-P001_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14035776,
+   "sha256": "c70b9cb275a2557bcc77661b94600984570568b1be7e816189af74aaa8fbe02a",
+   "subject": "1"
+  },
+  {
+   "file": "P001/EEG/sub-P001_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 13987216,
+   "sha256": "f4f733c7ed889aab215cd944cd0dbe53b4e69baa5544c1406662e4330338d6a9",
+   "subject": "1"
+  },
+  {
+   "file": "P001/EEG/sub-P001_ses-S001_task-T3_acq-C3S1_M2_run-001_eeg.xdf",
+   "bytes": 18894918,
+   "sha256": "7ed27058b92a28fcac2bb7fab53bcf556d115938b9ae00200e08f44b5ec84a0e",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Movements/movements_P001_BW_M1.csv",
+   "bytes": 3889,
+   "sha256": "75d1db6dd4d5893e2258ed3c4d532f4594425a8ace886c5f6e5665b9b46a985d",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Movements/movements_P001_BW_M1.mp4",
+   "bytes": 397594,
+   "sha256": "a1ab53b54f94a9c82e963f7882d3b27912ba775e12208c0d9972c8b260bfa5aa",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Movements/movements_P001_C3S1_M2.csv",
+   "bytes": 5812,
+   "sha256": "33b2358615798a57c6fb297733720bf7033eef57c0c9a03b3f5ee3f9a93e459c",
+   "subject": "1"
+  },
+  {
+   "file": "P001/Movements/movements_P001_C3S1_M2.mp4",
+   "bytes": 683511,
+   "sha256": "02fe8cc758d1e435fe6346ea207c8c35070fee094f4e56deaca73e91898b1f56",
+   "subject": "1"
+  },
+  {
+   "file": "P002/Comfort/P002_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "70f31ad768880faff9974c62026d24dc38de3ebcc1abecf4927db08a5b8f7c6d",
+   "subject": "2"
+  },
+  {
+   "file": "P002/Comfort/P002_relative.csv",
+   "bytes": 1245,
+   "sha256": "4ed850335ad53360737533e3b06d33740cbdc1d196500ed2c94bd4217f4ba928",
+   "subject": "2"
+  },
+  {
+   "file": "P002/Comfort/P002_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "3b48657040e7cc1f02b0f315dab3c7c24d4b949f806d5ccb7633ec9ba8b03fb8",
+   "subject": "2"
+  },
+  {
+   "file": "P002/EEG/sub-P002_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13839768,
+   "sha256": "674b8c602e47162debe6bdc9b576ba82308c7c3318e8ef565d07e28cee561fe3",
+   "subject": "1"
+  },
+  {
+   "file": "P002/EEG/sub-P002_ses-S001_task-T2_acq-C1S1_M2_run-001_eeg.xdf",
+   "bytes": 10027930,
+   "sha256": "e6f305fb14173434a72457ac36701d3e1bfb967cb6e4cf20263eb01af3e88db1",
+   "subject": "1"
+  },
+  {
+   "file": "P002/EEG/sub-P002_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 8925856,
+   "sha256": "dcd31ac9f8a02573b4515cb3f9369d2dbba2b5e8ce4b2b570d362b175776102f",
+   "subject": "1"
+  },
+  {
+   "file": "P002/Movements/movements_P002_BW_M1.csv",
+   "bytes": 2966,
+   "sha256": "d68a7b151e77503e39b596857ddf02a6d87aa7f4749082edd5ecbe4c78794ba2",
+   "subject": "2"
+  },
+  {
+   "file": "P002/Movements/movements_P002_BW_M1.mp4",
+   "bytes": 265353,
+   "sha256": "adb0f93a0f70ac0090f3f691d30e96b396d6d073967b7ab4f6817517132e8ad4",
+   "subject": "2"
+  },
+  {
+   "file": "P002/Movements/movements_P002_C1S1_M2.csv",
+   "bytes": 2992,
+   "sha256": "bc818edb388df9ae6341e4185774ee454b6adc15dc1bb267a4132d777f076660",
+   "subject": "1"
+  },
+  {
+   "file": "P002/Movements/movements_P002_C1S1_M2.mp4",
+   "bytes": 294985,
+   "sha256": "6feb02c708a94caa7ad54378a9bade03d99caf878e9d4d2c4843107b096f60ca",
+   "subject": "1"
+  },
+  {
+   "file": "P003/Comfort/P003_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a7d8ad31189890bd423f2d6245d061b506444488c8885ac6dda48cfbebee24b3",
+   "subject": "3"
+  },
+  {
+   "file": "P003/Comfort/P003_relative.csv",
+   "bytes": 1245,
+   "sha256": "d3ce3f1c925fd7dcb0a7894867770d871ab28387bf90a6e354b5789f6e8a16c8",
+   "subject": "3"
+  },
+  {
+   "file": "P003/Comfort/P003_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "fcedfae30ea92096b647b2334f251447ae246af6c8de6fc5044d9c4d4e24bf6a",
+   "subject": "3"
+  },
+  {
+   "file": "P003/EEG/sub-P003_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14151334,
+   "sha256": "2cf54736375357606f70d80f8fc9daa8499332f984e837b8e50e1ec0d5d38e8b",
+   "subject": "1"
+  },
+  {
+   "file": "P003/EEG/sub-P003_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 7852168,
+   "sha256": "bdfa9becd63c92a4c185773072b52cf32653fcfb42b128e1f311fc0cd7679e3f",
+   "subject": "1"
+  },
+  {
+   "file": "P003/EEG/sub-P003_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 10009710,
+   "sha256": "01223dac49b38354e11ec9771a8a920c34c344519b681073c74d1e89d444a320",
+   "subject": "1"
+  },
+  {
+   "file": "P003/Movements/movements_P003_BW_M1.csv",
+   "bytes": 2400,
+   "sha256": "fe472cb2d3a33562466b53e438260aad95b2c4148a99417d3b01222a2417a811",
+   "subject": "3"
+  },
+  {
+   "file": "P003/Movements/movements_P003_BW_M1.mp4",
+   "bytes": 259706,
+   "sha256": "eaaef34f55ed9447f7903c53dafa54b54a6fa60a2c1fafa95ac8581eda56dff7",
+   "subject": "3"
+  },
+  {
+   "file": "P003/Movements/movements_P003_C4S1_M2.csv",
+   "bytes": 3197,
+   "sha256": "b07ab48d0c359a1a13f5d5068e09dad3c9f9618393ed4dc923984c59b37d3c1c",
+   "subject": "1"
+  },
+  {
+   "file": "P003/Movements/movements_P003_C4S1_M2.mp4",
+   "bytes": 363581,
+   "sha256": "8743d90dd1ec0e62e490a8f48804497aed13cb82cbdddb6d753eb70aea7ed185",
+   "subject": "1"
+  },
+  {
+   "file": "P004/Comfort/P004_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a261a4f0a475fa73395e6903955187d05466ef194b7265ea97e9c114dbde1af7",
+   "subject": "4"
+  },
+  {
+   "file": "P004/Comfort/P004_relative.csv",
+   "bytes": 1245,
+   "sha256": "0bf7c8fc522c7f0dbfed86932ca35f6602fac5dbb5ca1ce6c968aeb44aa48b2a",
+   "subject": "4"
+  },
+  {
+   "file": "P004/Comfort/P004_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "86339f37d9f8e11564cbcbd3a4c3459e7f2bff76257dd403a94b06e2722fc609",
+   "subject": "4"
+  },
+  {
+   "file": "P004/EEG/sub-P004_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13635785,
+   "sha256": "2e25089f0680a4b45ee4ca16ee31f71d91ce4cf5f814e691b93a118cce655522",
+   "subject": "1"
+  },
+  {
+   "file": "P004/EEG/sub-P004_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 9016405,
+   "sha256": "7da971232a71d377db3cfb9e347de88aa5f155bc42b38a7cfb331d72bf85adb8",
+   "subject": "1"
+  },
+  {
+   "file": "P004/EEG/sub-P004_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6204939,
+   "sha256": "9e9a3fff10ce72e99e38206f7aaa6c3d0e4f20280f890ed6f69673e904546e9f",
+   "subject": "1"
+  },
+  {
+   "file": "P004/Movements/movements_P004_BW_M2.csv",
+   "bytes": 2326,
+   "sha256": "93c4828d0f156f9e4318a546c9898e9fdde183017c060e214a6debc3a8614bd1",
+   "subject": "4"
+  },
+  {
+   "file": "P004/Movements/movements_P004_BW_M2.mp4",
+   "bytes": 216613,
+   "sha256": "5a611f79bdb3d5ce124431eb82443ed286bd86c634b18b64feaaf3bcb5fe2383",
+   "subject": "4"
+  },
+  {
+   "file": "P004/Movements/movements_P004_C4S1_M1.csv",
+   "bytes": 2748,
+   "sha256": "84ad94f98fc42462683ec82f893652cc5c187535c9a497fd3df8bc5965ce3a18",
+   "subject": "1"
+  },
+  {
+   "file": "P004/Movements/movements_P004_C4S1_M1.mp4",
+   "bytes": 270737,
+   "sha256": "42e77ed5f5b7f3c4eec7b174e6cac96cb5efaac6a1d5680ee78456063060a7eb",
+   "subject": "1"
+  },
+  {
+   "file": "P005/Comfort/P005_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "9e86101ef2e5ebd00ea1b7ae4659eb50f605bd7cb6ac3184b849a85b2bda9ed5",
+   "subject": "5"
+  },
+  {
+   "file": "P005/Comfort/P005_relative.csv",
+   "bytes": 1245,
+   "sha256": "1037f94d5bbb47dcdec9dfd0fe201c55fe1dcab277329874ee469ce410d28e9c",
+   "subject": "5"
+  },
+  {
+   "file": "P005/Comfort/P005_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "4fc4fea1183ec1af09a38454afe8ec7afee3925f6a2adbf28e29eaed8f6c077f",
+   "subject": "5"
+  },
+  {
+   "file": "P005/EEG/sub-P005_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14755106,
+   "sha256": "eea7037cfbfd73b1cc059cedf11036b105b6a0151454573312889be4f88d0b1c",
+   "subject": "1"
+  },
+  {
+   "file": "P005/EEG/sub-P005_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6199857,
+   "sha256": "2fbcdc2bdd32c48580d6d7794455b18b86ceee508b7cbbc860b288ce3a224389",
+   "subject": "1"
+  },
+  {
+   "file": "P005/EEG/sub-P005_ses-S001_task-T3_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 21181087,
+   "sha256": "5a04f70fa5107585004d105cd3a077fb289596e03df902a72803868cfae495a6",
+   "subject": "1"
+  },
+  {
+   "file": "P005/Movements/movements_P005_BW_M1.csv",
+   "bytes": 2158,
+   "sha256": "40874662e1d7f4eae8e7ade355900be81a145326f2d45f6712a4f6216bd0a009",
+   "subject": "5"
+  },
+  {
+   "file": "P005/Movements/movements_P005_BW_M1.mp4",
+   "bytes": 197724,
+   "sha256": "40afd29fae944cb5ae7372967d942d0947ec02d32360e9fcfee422c7b693bb1c",
+   "subject": "5"
+  },
+  {
+   "file": "P005/Movements/movements_P005_C4S2_M2.csv",
+   "bytes": 7035,
+   "sha256": "f660e3d88a18b36900eeb3ce48b08abb23254e46392815a635cd29fb379ea43f",
+   "subject": "2"
+  },
+  {
+   "file": "P005/Movements/movements_P005_C4S2_M2.mp4",
+   "bytes": 854238,
+   "sha256": "24ddda150b5865735f32bed234622d473ddc92f73270a92717fc561b7bd09eeb",
+   "subject": "2"
+  },
+  {
+   "file": "P006/Comfort/P006_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "d6f2af4130b85496e102bfc557f8d75f42f2933359588894001c1a0880048013",
+   "subject": "6"
+  },
+  {
+   "file": "P006/Comfort/P006_relative.csv",
+   "bytes": 1245,
+   "sha256": "23298c79af7dfb0093e4112830f2ec504bfb8f778e344360d3bccdfd97b00f95",
+   "subject": "6"
+  },
+  {
+   "file": "P006/Comfort/P006_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "ba89d76704b939f5f57122a33b7550c6267e30679007b5adb737febcd2dd4693",
+   "subject": "6"
+  },
+  {
+   "file": "P006/EEG/sub-P006_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13680540,
+   "sha256": "f04ac1e8ce55e272b0e7fa0fdf1e1f0cd097bbac566c95650ce184046f86ab1a",
+   "subject": "1"
+  },
+  {
+   "file": "P006/EEG/sub-P006_ses-S001_task-T2_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 7005608,
+   "sha256": "b8dd76657c3d51f560d01d344f115e0eb3a14a48ac2f7be3708f4be2926feb85",
+   "subject": "1"
+  },
+  {
+   "file": "P006/EEG/sub-P006_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6615347,
+   "sha256": "2a142c7ee76112131fabe45e29772e77a9790919f7dcdaa14086e8c73ecf6458",
+   "subject": "1"
+  },
+  {
+   "file": "P006/Movements/movements_P006_BW_M1.csv",
+   "bytes": 2389,
+   "sha256": "5fe10c047d6cc1f1f04a0eb9d939330c090a93ad1395fa86b946abad79719d7a",
+   "subject": "6"
+  },
+  {
+   "file": "P006/Movements/movements_P006_BW_M1.mp4",
+   "bytes": 262461,
+   "sha256": "154b88a662cb9a76fd9ae95228bac3d96fc91375548bbaf34ad390cd6290d4eb",
+   "subject": "6"
+  },
+  {
+   "file": "P006/Movements/movements_P006_C4S2_M2.csv",
+   "bytes": 2457,
+   "sha256": "0aaa8112cb70e44455bb866dd61da50d521e944fb3bc7d707e4de39350a39cca",
+   "subject": "2"
+  },
+  {
+   "file": "P006/Movements/movements_P006_C4S2_M2.mp4",
+   "bytes": 286873,
+   "sha256": "1101e08ea7556724bf658df08623fcbad50b216fce396cf930565e952dee5961",
+   "subject": "2"
+  },
+  {
+   "file": "P007/Comfort/P007_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "22d4d8ed8a26e56c3dbadea17a06f292c380ea1f87d8c0aeac075930a28ab86d",
+   "subject": "7"
+  },
+  {
+   "file": "P007/Comfort/P007_relative.csv",
+   "bytes": 1245,
+   "sha256": "c2a72df98b0fd7466b22edb1aeaefd88bd75e8200a47f9f7ba6f9320ec98083a",
+   "subject": "7"
+  },
+  {
+   "file": "P007/Comfort/P007_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "3defcd78d843ad36f7219c1f27642c92043edf25bedf48e603267f76032b3b42",
+   "subject": "7"
+  },
+  {
+   "file": "P007/EEG/sub-P007_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13982644,
+   "sha256": "c43f92a29adfc3c44c2a0f3b3ccadfce7c348e5bcc522eadb5683abebe05920e",
+   "subject": "1"
+  },
+  {
+   "file": "P007/EEG/sub-P007_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6590918,
+   "sha256": "7e91ad33ab700b1df39817d3554a93d92298bae3a2bb21096207d8c9d7be63a5",
+   "subject": "1"
+  },
+  {
+   "file": "P007/EEG/sub-P007_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 8679602,
+   "sha256": "b9da562e4d6d076a6d7010edc89c458b4150a1b81a7eec72db19744668e454db",
+   "subject": "1"
+  },
+  {
+   "file": "P007/Movements/movements_P007_BW_M1.csv",
+   "bytes": 2157,
+   "sha256": "6e00870f299c6a350b01bcc8bdf11f06a7eb5847482d98f33622d410a60995e9",
+   "subject": "7"
+  },
+  {
+   "file": "P007/Movements/movements_P007_BW_M1.mp4",
+   "bytes": 197709,
+   "sha256": "f75fc0123e38d77e5dd4c412465513392d4b1f073338e041603e4cf21782a9c4",
+   "subject": "7"
+  },
+  {
+   "file": "P007/Movements/movements_P007_C4S1_M2.csv",
+   "bytes": 2747,
+   "sha256": "cb72aba2c3c01a827be98f9f60bea5997d30063f92b61701ebe6eb27fa35406b",
+   "subject": "1"
+  },
+  {
+   "file": "P007/Movements/movements_P007_C4S1_M2.mp4",
+   "bytes": 291376,
+   "sha256": "de612bdc933f2f07a9889f49cb60be599d05a2d839bd544f1e4dfa96c93cbc4f",
+   "subject": "1"
+  },
+  {
+   "file": "P008/Comfort/P008_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "9dbe5468a076ab8c6e025377cca5a8c083bebd2ca75e5bd2adb6d5e80b1f5d48",
+   "subject": "8"
+  },
+  {
+   "file": "P008/Comfort/P008_relative.csv",
+   "bytes": 1245,
+   "sha256": "a1de4c58fc746923838a43ca9ba66647e9d2f4fa1bbbb0c78d1df4d07870368b",
+   "subject": "8"
+  },
+  {
+   "file": "P008/Comfort/P008_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "723af589929d54810dd06c4f22fe7560d149938c40eb613d0d615b47e580ec78",
+   "subject": "8"
+  },
+  {
+   "file": "P008/EEG/sub-P008_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13810956,
+   "sha256": "bb4ae616f4e0f03737b886247437fb4a9dc261ea4e3af9a7e70673a50edaabb0",
+   "subject": "1"
+  },
+  {
+   "file": "P008/EEG/sub-P008_ses-S001_task-T2_acq-C4S2_M1_run-001_eeg.xdf",
+   "bytes": 13324415,
+   "sha256": "30317b74dfdcba7f8f175ff6f15b4f490ffbd3e8e6d3c42823dfa6d4c9c0e38a",
+   "subject": "1"
+  },
+  {
+   "file": "P008/EEG/sub-P008_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 18218754,
+   "sha256": "5178f4abdd2bdfcc4a0297289991ac7320efda40a5e887fd87805513a7f5a5b7",
+   "subject": "1"
+  },
+  {
+   "file": "P008/Movements/movements_P008_BW_M2.csv",
+   "bytes": 5913,
+   "sha256": "58d9e2f041319a71ba0a5035372f3b4daa12f258dedad52f8eca8e3256403e6b",
+   "subject": "8"
+  },
+  {
+   "file": "P008/Movements/movements_P008_BW_M2.mp4",
+   "bytes": 664917,
+   "sha256": "c803b5ee32b47210b4c3ae46e2bf745776eeea6c1bbb156bc260e2610ddaa251",
+   "subject": "8"
+  },
+  {
+   "file": "P008/Movements/movements_P008_C4S2_M1.csv",
+   "bytes": 4210,
+   "sha256": "bf4c952ba1dd1c168bba5bc574ab23eb1410e19643d153838b8ca9366d746e5c",
+   "subject": "2"
+  },
+  {
+   "file": "P008/Movements/movements_P008_C4S2_M1.mp4",
+   "bytes": 416936,
+   "sha256": "9d6d7582e693df63eebc5ec8d49471918ef1b92e2ef7f796025f294a5af47db4",
+   "subject": "2"
+  },
+  {
+   "file": "P009/Comfort/P009_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "f4757d69293433a11dd3465f9e4f0593c3234537cd933a1de7e5c5bd7bb52598",
+   "subject": "9"
+  },
+  {
+   "file": "P009/Comfort/P009_relative.csv",
+   "bytes": 1245,
+   "sha256": "6e8c35947983007cacfc82d503607b9e9bfcfbb38b9ed56ca30541204bd3b35e",
+   "subject": "9"
+  },
+  {
+   "file": "P009/Comfort/P009_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "2e2919f6fc59bb401b07a1641826a60c435e2988fdbaa3e25ff1517a028315b2",
+   "subject": "9"
+  },
+  {
+   "file": "P009/EEG/sub-P009_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13493392,
+   "sha256": "7e72d8f037e9d3c113d6f5ecdb1f9e0e16b7752af7c5921e45c3f551092ed955",
+   "subject": "1"
+  },
+  {
+   "file": "P009/EEG/sub-P009_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 7476371,
+   "sha256": "c12bec6b271aaf185e7fc4bacf7b43e3546a017643f75c71cae3fd25379dfbea",
+   "subject": "1"
+  },
+  {
+   "file": "P009/EEG/sub-P009_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 12393693,
+   "sha256": "7d98bc6549200dd075c8f946bb01866acc024e23398e42e355b98e39a969c13e",
+   "subject": "1"
+  },
+  {
+   "file": "P009/Movements/movements_P009_BW_M1.csv",
+   "bytes": 2611,
+   "sha256": "bb14d7ed8b88aa37e88657f0a3d8679ff2fd2c9e180633d0cc47265f3e31f56b",
+   "subject": "9"
+  },
+  {
+   "file": "P009/Movements/movements_P009_BW_M1.mp4",
+   "bytes": 264074,
+   "sha256": "a7447d5b9edc38a3b41ad0515cfef8532c3515aff44ee98f7f57f0a976eb4136",
+   "subject": "9"
+  },
+  {
+   "file": "P009/Movements/movements_P009_C4S1_M2.csv",
+   "bytes": 4038,
+   "sha256": "434cbe6005e02fb93ec4fb3af63e9abde0db4a939aa5b911c121eeb3e9fad840",
+   "subject": "1"
+  },
+  {
+   "file": "P009/Movements/movements_P009_C4S1_M2.mp4",
+   "bytes": 445824,
+   "sha256": "92fe347d6873cc3e6dd2d41a3301e03ce6b512a0337fe355d0b53e6be5a01f10",
+   "subject": "1"
+  },
+  {
+   "file": "P010/Comfort/P010_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "8d11c1030020720cadc0ede230ed89aa87b91f306664b9a8dce75bf1e69c864a",
+   "subject": "10"
+  },
+  {
+   "file": "P010/Comfort/P010_relative.csv",
+   "bytes": 1245,
+   "sha256": "cc9d6b354f6ee123509db15ae21e74e88fa3cb5cfcba964647a25f3f259669e1",
+   "subject": "10"
+  },
+  {
+   "file": "P010/Comfort/P010_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "5ca44e150b35f64642533c03c1099378ffa6fb2f3fafad7a3f320eba390291ea",
+   "subject": "10"
+  },
+  {
+   "file": "P010/EEG/sub-P010_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14000013,
+   "sha256": "ccead7606d982d7f0758f927a43c1d2b00b4a464001a9fec6f96ed52920fa3ac",
+   "subject": "1"
+  },
+  {
+   "file": "P010/EEG/sub-P010_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 10535968,
+   "sha256": "838a453fcdbea8cfaac181fd186be3f82f287d849c589dc3fa790b8e79483783",
+   "subject": "1"
+  },
+  {
+   "file": "P010/EEG/sub-P010_ses-S001_task-T3_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 10139002,
+   "sha256": "3b436d1cf1b01f1c30e120f2dc6a8890e5c120a85fca15fa13b8b41f1dd4e096",
+   "subject": "1"
+  },
+  {
+   "file": "P010/Movements/movements_P010_BW_M2.csv",
+   "bytes": 2606,
+   "sha256": "3e78b8e42b598c70b2ad2b9ff601a1e46949e2080251c5246de0989738d25a78",
+   "subject": "10"
+  },
+  {
+   "file": "P010/Movements/movements_P010_BW_M2.mp4",
+   "bytes": 281122,
+   "sha256": "8dd5f3f22ed331ef1741566eed0d8dd2a036c9d53d4dc4f934396f2650cd7d92",
+   "subject": "10"
+  },
+  {
+   "file": "P010/Movements/movements_P010_C4S1_M1.csv",
+   "bytes": 2648,
+   "sha256": "84fca65db23e0e28351ed47eb286df45596474692edee576baf338ddfebba68a",
+   "subject": "1"
+  },
+  {
+   "file": "P010/Movements/movements_P010_C4S1_M1.mp4",
+   "bytes": 267612,
+   "sha256": "c784a7a44f92f3b825df24b252320ae45f69bbf9ad96292597bc8b780d650346",
+   "subject": "1"
+  },
+  {
+   "file": "P011/Comfort/P011_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a251652d496844c8f46db4a259d9d4c2c197f4e3335b311e125a71b6e69ec502",
+   "subject": "11"
+  },
+  {
+   "file": "P011/Comfort/P011_relative.csv",
+   "bytes": 1245,
+   "sha256": "a65e5821c6b2dac6fd7dcc6208be3001a4c0e6393f6734ca98888731ec965107",
+   "subject": "11"
+  },
+  {
+   "file": "P011/Comfort/P011_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "4ca5434ad281ed5bfb1116763cafdd250629037bf06d50975b230be4cb9d765f",
+   "subject": "11"
+  },
+  {
+   "file": "P011/EEG/sub-P011_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14328275,
+   "sha256": "5a18ee417064afad63338c590fdbdcdbb76b58e43f2577078acc099a48393969",
+   "subject": "1"
+  },
+  {
+   "file": "P011/EEG/sub-P011_ses-S001_task-T2_acq-C3S1_M1_run-001_eeg.xdf",
+   "bytes": 14284284,
+   "sha256": "9774e7530facb72a2bbf13f53709d2b07914ba656f3e8827756135747f56bda7",
+   "subject": "1"
+  },
+  {
+   "file": "P011/EEG/sub-P011_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6503709,
+   "sha256": "234d4f018e425799ad902fbd6c1e294e547d34cfa85c958b700bcfa0508ae807",
+   "subject": "1"
+  },
+  {
+   "file": "P011/Movements/movements_P011_BW_M2.csv",
+   "bytes": 2370,
+   "sha256": "a39589385d4216b52ff15661ce2b0823e48a812e1b52543960b28235bae8808b",
+   "subject": "11"
+  },
+  {
+   "file": "P011/Movements/movements_P011_BW_M2.mp4",
+   "bytes": 215357,
+   "sha256": "f0b07b89a1ff8d981bb794f8a75ad978c6f474c724585b7a3b9dbd22f96922fc",
+   "subject": "11"
+  },
+  {
+   "file": "P011/Movements/movements_P011_C3S1_M1.csv",
+   "bytes": 4292,
+   "sha256": "f5646a4b2e9ddb4199c1d59aba8294a4c534c2a50f89fb5063e64e321de57535",
+   "subject": "1"
+  },
+  {
+   "file": "P011/Movements/movements_P011_C3S1_M1.mp4",
+   "bytes": 415587,
+   "sha256": "3ed7d12e0051f53ec41ddc77b50b2e554307c6e41136fc537f26990a4e4cf4ef",
+   "subject": "1"
+  },
+  {
+   "file": "P012/Comfort/P012_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "e849d8726d3f74fbd251956326318c001fadddc4b96a10dcf6a3b9f7a5675d5e",
+   "subject": "12"
+  },
+  {
+   "file": "P012/Comfort/P012_relative.csv",
+   "bytes": 1245,
+   "sha256": "fe90d35b41491ba6395f4cc818726ec0190a35da04d173301b4b07780578418f",
+   "subject": "12"
+  },
+  {
+   "file": "P012/Comfort/P012_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "f7ddaf225504404ab30069cf3779aae5c57783b1db3452db1daaee83f3308bd8",
+   "subject": "12"
+  },
+  {
+   "file": "P012/EEG/sub-P012_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14985705,
+   "sha256": "41105452b9c09054993e5001ff2e2ba4dede8dc7941be9b8a7ca4b78df581985",
+   "subject": "1"
+  },
+  {
+   "file": "P012/EEG/sub-P012_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 7819633,
+   "sha256": "74b047746c906515887176543942ce391ece78f4daafa7e85476d33e3f3ab9dd",
+   "subject": "1"
+  },
+  {
+   "file": "P012/EEG/sub-P012_ses-S001_task-T3_acq-C3S1_M1_run-001_eeg.xdf",
+   "bytes": 8334720,
+   "sha256": "7a7cbfa0f14aa82ee1774756c56f44b4da98a4ceef97f8e126a3478f797b0e84",
+   "subject": "1"
+  },
+  {
+   "file": "P012/Movements/movements_P012_BW_M2.csv",
+   "bytes": 2603,
+   "sha256": "ad20abcb8d324585eed2c4751f285814570cd089a1d30e02ae07c40adfb2c064",
+   "subject": "12"
+  },
+  {
+   "file": "P012/Movements/movements_P012_BW_M2.mp4",
+   "bytes": 281104,
+   "sha256": "cdff9bc101b96b2a3846210f00dbc160400adec93783e88ad35bc9b022e6c9f0",
+   "subject": "12"
+  },
+  {
+   "file": "P012/Movements/movements_P012_C3S1_M1.csv",
+   "bytes": 2835,
+   "sha256": "2776671e8f92660621ba7a223788b66c37e4b232f7b3ecbe776f4f1f2415a2ab",
+   "subject": "1"
+  },
+  {
+   "file": "P012/Movements/movements_P012_C3S1_M1.mp4",
+   "bytes": 266916,
+   "sha256": "bd44792c17f195d7c760f8ba5d659d41cd57b84c0cc6c093a5d0aaa0abc9c0f3",
+   "subject": "1"
+  },
+  {
+   "file": "P013/Comfort/P013_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "897b152fea1996671e2a769dead0fb9e13964180e8e23327b32564bcfc5a31f9",
+   "subject": "13"
+  },
+  {
+   "file": "P013/Comfort/P013_relative.csv",
+   "bytes": 1245,
+   "sha256": "b5ee829565af108e3a89e300177e98491136461ddd199062ab2817a584bf9ebf",
+   "subject": "13"
+  },
+  {
+   "file": "P013/Comfort/P013_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "2cdc67f94e5c3519124215c27bf72f34cb0a5031215ba755521c921713a4f6ab",
+   "subject": "13"
+  },
+  {
+   "file": "P013/EEG/sub-P013_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14515575,
+   "sha256": "ae33f697c7943e8d441047ebc2b106f80c4126d6ece8b4e7cbff3215c9122171",
+   "subject": "1"
+  },
+  {
+   "file": "P013/EEG/sub-P013_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 6866381,
+   "sha256": "e3ee9907230968fc153b5bfccb33627b9b970aaf91d7c089ca01d1ad5eb48905",
+   "subject": "1"
+  },
+  {
+   "file": "P013/EEG/sub-P013_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 5627613,
+   "sha256": "e6661c90ef7079c4c4dc515a04343508e76f0a73a5b6b8947c87a9d4d333ebb1",
+   "subject": "1"
+  },
+  {
+   "file": "P013/Movements/movements_P013_BW_M2.csv",
+   "bytes": 2307,
+   "sha256": "8ce734b36146c5b87d1d041210f2911ff98059b8dad395504ad58e141b992e89",
+   "subject": "13"
+  },
+  {
+   "file": "P013/Movements/movements_P013_BW_M2.mp4",
+   "bytes": 215313,
+   "sha256": "9ef373f98596352584bd440ca6f10ff7e2198160eb9b31af2f145c8d173b75d7",
+   "subject": "13"
+  },
+  {
+   "file": "P013/Movements/movements_P013_C4S1_M1.csv",
+   "bytes": 2354,
+   "sha256": "0dc7ec65e8d4ade3a317c28957e33983958bde6df6976ebcdc21ef21e1eb378b",
+   "subject": "1"
+  },
+  {
+   "file": "P013/Movements/movements_P013_C4S1_M1.mp4",
+   "bytes": 202986,
+   "sha256": "032110831effeb5524af73395f81a0242887d1c0c62f8270424fe82b34a59f68",
+   "subject": "1"
+  },
+  {
+   "file": "P014/Comfort/P014_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "ec53cc692df481e535ca610c59b3552713d894b6a2f7621339a80edb1d4f292f",
+   "subject": "14"
+  },
+  {
+   "file": "P014/Comfort/P014_relative.csv",
+   "bytes": 1245,
+   "sha256": "9afb25bd207eb6c2066875e3ecc92a37aa22bfc711077621fda3d9a552e8cfc2",
+   "subject": "14"
+  },
+  {
+   "file": "P014/Comfort/P014_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "acd51b538364f6db1fb222b4ac55c8cb9b682188fb6ba8eb3a6a48005f6b869a",
+   "subject": "14"
+  },
+  {
+   "file": "P014/EEG/sub-P014_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13156571,
+   "sha256": "5cda244696f0dba655b25d8bf84e820af01a2b13639b44c58833c8da729e5fc8",
+   "subject": "1"
+  },
+  {
+   "file": "P014/EEG/sub-P014_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6857200,
+   "sha256": "1368e630640dcc628e9745c3e8b931b8402d4cefd4a003f0724e9746f209e287",
+   "subject": "1"
+  },
+  {
+   "file": "P014/EEG/sub-P014_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 7534440,
+   "sha256": "231a0b7ebda5a6b22842e6eb7e1e2735ff4952c91851f3c1e386551a7586ed1a",
+   "subject": "1"
+  },
+  {
+   "file": "P014/Movements/movements_P014_BW_M1.csv",
+   "bytes": 2489,
+   "sha256": "753ed0c7b6820ff26d2d9e386f4e0eb1fc6e73149247fef4bc212878da541fa4",
+   "subject": "14"
+  },
+  {
+   "file": "P014/Movements/movements_P014_BW_M1.mp4",
+   "bytes": 258165,
+   "sha256": "a54b542edad1da4d235309c5e19d082235109f714f3964709f310658c40422e5",
+   "subject": "14"
+  },
+  {
+   "file": "P014/Movements/movements_P014_C4S1_M2.csv",
+   "bytes": 2783,
+   "sha256": "e04d538d45300e626f868b4fd9d1a90607b9579822713524d39c787e9a7e4892",
+   "subject": "1"
+  },
+  {
+   "file": "P014/Movements/movements_P014_C4S1_M2.mp4",
+   "bytes": 290715,
+   "sha256": "af2848c763061016ca4a3ec04e60b6e472ed760ceb742000205cd0ff7bc3314b",
+   "subject": "1"
+  },
+  {
+   "file": "P015/EEG/sub-P015_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13005645,
+   "sha256": "8749418ab09c172ac1f01fec76d2158693d0c8abca1b389bb813161af4ec748c",
+   "subject": "1"
+  },
+  {
+   "file": "P015/EEG/sub-P015_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6339722,
+   "sha256": "aaef9b22c12006cddd86d9fdd4b54f4e7aeb20256b23985aed912cd66e0eab4c",
+   "subject": "1"
+  },
+  {
+   "file": "P015/EEG/sub-P015_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 6235418,
+   "sha256": "8a37fb2de6a4519cf200e1ab5821aa8a440bcc61828b9706c8de79522b533f6f",
+   "subject": "1"
+  },
+  {
+   "file": "P015/Movements/movements_P015_BW_M1.csv",
+   "bytes": 2408,
+   "sha256": "424d1a371f263a7b546ecf0bc8d514560f323dfb5c7bd444a585f323dbc3790e",
+   "subject": "15"
+  },
+  {
+   "file": "P015/Movements/movements_P015_BW_M1.mp4",
+   "bytes": 261456,
+   "sha256": "fa6a89d3c8338b46453743d33b32f1b7b9f33f833f5cf7e3134750a427f36d19",
+   "subject": "15"
+  },
+  {
+   "file": "P015/Movements/movements_P015_C4S1_M2.csv",
+   "bytes": 2480,
+   "sha256": "83df4a9ee636716e4fb7236358db40c70547faac0e1a8d2a805f67ecd8495fb5",
+   "subject": "1"
+  },
+  {
+   "file": "P015/Movements/movements_P015_C4S1_M2.mp4",
+   "bytes": 284564,
+   "sha256": "5af2ba8308e8c4dfb76445c9e913d9fd4693c901ebc34f3281c45ce7ded05834",
+   "subject": "1"
+  },
+  {
+   "file": "P016/Comfort/P016_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "f0ae3db0477cddb197967b6bdd6ea70917ee8cdd03b47931b2a7689f2e34720d",
+   "subject": "16"
+  },
+  {
+   "file": "P016/Comfort/P016_relative.csv",
+   "bytes": 1245,
+   "sha256": "c80eb4eca1418c434442bb70c9717785356db63dc1e859f24dde7e2d353a2120",
+   "subject": "16"
+  },
+  {
+   "file": "P016/Comfort/P016_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "b273273fe953c4e8da20432eed19277ef8ed4945491b34b3fd3fe7fedbb69f79",
+   "subject": "16"
+  },
+  {
+   "file": "P016/EEG/sub-P016_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 17721555,
+   "sha256": "29ac67d70f0e7950bf18fec18462da480f6e5e65077e455750dcb4ef4b841d5f",
+   "subject": "1"
+  },
+  {
+   "file": "P016/EEG/sub-P016_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 17913584,
+   "sha256": "670d9f1003f3c098169814bbdb9b26444691609da30a4c3f993391892c9d656a",
+   "subject": "1"
+  },
+  {
+   "file": "P017/Comfort/P017_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "1b57a99df4762b3859764dd0b2e2efb32636f82ac0622cf268c0afc44e92e856",
+   "subject": "17"
+  },
+  {
+   "file": "P017/Comfort/P017_relative.csv",
+   "bytes": 1245,
+   "sha256": "11cc8ff07db0fd43c6d5dacecfebe6a3d7c1766ed53870fa5c7b8c264ef942c0",
+   "subject": "17"
+  },
+  {
+   "file": "P017/Comfort/P017_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "a62bdcd07d233098ccadf503c27766f5cd82e8aa77b176c60c7129c62b20984c",
+   "subject": "17"
+  },
+  {
+   "file": "P017/EEG/sub-P017_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14293330,
+   "sha256": "84b56fc5c6348f16fdcae25f39fab4bade70ec68bf8fd63a1e1f3f9c9c3e4c5e",
+   "subject": "1"
+  },
+  {
+   "file": "P017/EEG/sub-P017_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6109903,
+   "sha256": "9d8fa39963d069079e2b4ccaf0b8677c2a8d2756b7948a2dfece35ada38c2c21",
+   "subject": "1"
+  },
+  {
+   "file": "P017/EEG/sub-P017_ses-S001_task-T3_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 5114037,
+   "sha256": "32ac12b670ea5ab8f01ee0efc37139c1daf220ecf2550e92ff0ef6929440e59d",
+   "subject": "1"
+  },
+  {
+   "file": "P017/Movements/movements_P017_BW_M1.csv",
+   "bytes": 2411,
+   "sha256": "7430645d296113e90e67d67f264f863cb667dc1afb6a66c99d2882c6bd142161",
+   "subject": "17"
+  },
+  {
+   "file": "P017/Movements/movements_P017_BW_M1.mp4",
+   "bytes": 261352,
+   "sha256": "ca18643f2131e5f6b25cf0b5d2c97f17d85e2a19e7700c80b90f9b1f9ea8fe18",
+   "subject": "17"
+  },
+  {
+   "file": "P017/Movements/movements_P017_C4S2_M2.csv",
+   "bytes": 2245,
+   "sha256": "866dad25bdf90f222e4832ca915eede224aea29cc5c8c80fa85fb2ba9d7688a2",
+   "subject": "2"
+  },
+  {
+   "file": "P017/Movements/movements_P017_C4S2_M2.mp4",
+   "bytes": 218524,
+   "sha256": "b3652f5e252cbd5230d7b6ce4cfeecc2b9f9b4df9bd7494ebb0ab3b6ac131cff",
+   "subject": "2"
+  },
+  {
+   "file": "P018/Comfort/P018_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "ae8730ab368969a3f731a93aa9a950a639a494255f7944fcf246b9b1a4c0c76a",
+   "subject": "18"
+  },
+  {
+   "file": "P018/Comfort/P018_relative.csv",
+   "bytes": 1245,
+   "sha256": "a56b63f5ff1e00daffa98021975333e539746ed97ecefd7babc02623dd50ebbd",
+   "subject": "18"
+  },
+  {
+   "file": "P018/Comfort/P018_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "cbc64bd31ce6c235dedd32c7f8342a4e7b63c6455e60611c89a9ea5a4f6b2537",
+   "subject": "18"
+  },
+  {
+   "file": "P018/EEG/sub-P018_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13574056,
+   "sha256": "92e3cadb53c6de9d6fc9022bcc89e5a37b32f03a243cd5c7bc0ec90fa3c9091c",
+   "subject": "1"
+  },
+  {
+   "file": "P018/EEG/sub-P018_ses-S001_task-T2_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 6046234,
+   "sha256": "d8d3dc6692a05085d2c5b2650353ab052f7b8f44427505e7de2647a861105159",
+   "subject": "1"
+  },
+  {
+   "file": "P018/EEG/sub-P018_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6017685,
+   "sha256": "1b3ffbcf038774130c13fe77db7cbff1bb5c30109ff7871a398bdc62e679d291",
+   "subject": "1"
+  },
+  {
+   "file": "P018/Movements/movements_P018_BW_M1.csv",
+   "bytes": 2480,
+   "sha256": "7ade1bd93f17f4e26899fb31b1e673ee76550a1e99dced70c44e17dea4a8d083",
+   "subject": "18"
+  },
+  {
+   "file": "P018/Movements/movements_P018_BW_M1.mp4",
+   "bytes": 259759,
+   "sha256": "db079a6cfc7648a1aaac169a65ea1e3c6e97516e78710d0e9f97f6a01546a969",
+   "subject": "18"
+  },
+  {
+   "file": "P018/Movements/movements_P018_C4S1_M2.csv",
+   "bytes": 2357,
+   "sha256": "221f50ade5bd4ab757ac0ab467aa3ee00702d9b3e2ee17f5cd8712d6ee0143c5",
+   "subject": "1"
+  },
+  {
+   "file": "P018/Movements/movements_P018_C4S1_M2.mp4",
+   "bytes": 220490,
+   "sha256": "5ec2221d3b41779ed3ac6f2245946e36ff1b22b6a1bc30d094ac813b828fce70",
+   "subject": "1"
+  },
+  {
+   "file": "P019/Comfort/P019_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "6fd9e3511d2ef292fe2fe55312e9aca29333ecb8008642462d19f1ba656eb6bf",
+   "subject": "19"
+  },
+  {
+   "file": "P019/Comfort/P019_relative.csv",
+   "bytes": 1245,
+   "sha256": "b6baf182bc8d61839ee9d45a3aebd0330066ca863a557e2f1e8f7406e71dc87a",
+   "subject": "19"
+  },
+  {
+   "file": "P019/Comfort/P019_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "c7c23c8feca79e29a1dbb2002313196620ff90bedca8fc367585a4580d6d9a2a",
+   "subject": "19"
+  },
+  {
+   "file": "P019/EEG/sub-P019_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14639737,
+   "sha256": "8a9d883af5533827e7adb422f76357aed5ea37a267876943fb26528ea0cbfcdf",
+   "subject": "1"
+  },
+  {
+   "file": "P019/EEG/sub-P019_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6203690,
+   "sha256": "63b18141d25b651b10bd200888ba01b8f148ef31a2919a7ec410f766348ce341",
+   "subject": "1"
+  },
+  {
+   "file": "P019/EEG/sub-P019_ses-S001_task-T3_acq-C3S1_M1_run-001_eeg.xdf",
+   "bytes": 8177327,
+   "sha256": "7a1bebf753d977bdbbe0f2874cc9072f405beb195ca29b4720980e5f91389054",
+   "subject": "1"
+  },
+  {
+   "file": "P019/Movements/movements_P019_BW_M2.csv",
+   "bytes": 2423,
+   "sha256": "33226a4baaaf1d8ef0228ff9a5be70607e941050bc0a98bfc70453486fac5a3b",
+   "subject": "19"
+  },
+  {
+   "file": "P019/Movements/movements_P019_BW_M2.mp4",
+   "bytes": 279629,
+   "sha256": "41477008d59cfc662ebc783ab78df68fa0d23b4ab0361ce2b032e4527b378c37",
+   "subject": "19"
+  },
+  {
+   "file": "P019/Movements/movements_P019_C3S1_M1.csv",
+   "bytes": 2912,
+   "sha256": "f0e10c95ff423b1436a49dab49cb9295661aec44c5503840b5f4b3e544ea70be",
+   "subject": "1"
+  },
+  {
+   "file": "P019/Movements/movements_P019_C3S1_M1.mp4",
+   "bytes": 268658,
+   "sha256": "eacdfe3789b22313f777d00d2dcfbe8b5883e3e3d6ecc3ea9eb016e91bdab0ce",
+   "subject": "1"
+  },
+  {
+   "file": "P020/Comfort/P020_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "76ac77b681902145ee4531013bab21c76d27b49a0704bd637de1abd4e9772f15",
+   "subject": "20"
+  },
+  {
+   "file": "P020/Comfort/P020_relative.csv",
+   "bytes": 1245,
+   "sha256": "909d0b4adbbae67e22ced49b9208d57ca1b188b8584a3a3e73d8dda6178f20a0",
+   "subject": "20"
+  },
+  {
+   "file": "P020/Comfort/P020_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "7575801441f48ef777c624a290be1b7079d1ebbcffa1cd8813751211451a20a8",
+   "subject": "20"
+  },
+  {
+   "file": "P020/EEG/sub-P020_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13982709,
+   "sha256": "600f896fd0ef2ccf149d97a8283062bd9dc4c7306d9f086cfbbb7df78a737683",
+   "subject": "1"
+  },
+  {
+   "file": "P020/EEG/sub-P020_ses-S001_task-T2_acq-C3S1_M1_run-001_eeg.xdf",
+   "bytes": 8270271,
+   "sha256": "7ad5cfa65dd14aca54741843b670943e09b0a0e229d47dc0ab8251baa3235ecf",
+   "subject": "1"
+  },
+  {
+   "file": "P020/EEG/sub-P020_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 7459761,
+   "sha256": "bc5caf6cfcbf50755e1f285efd435c7598c1accc072d09f1412a969da38d3f2b",
+   "subject": "1"
+  },
+  {
+   "file": "P020/Movements/movements_P020_BW_M2.csv",
+   "bytes": 2855,
+   "sha256": "6b7594c5de36bda3f9e15e701d05dcee8e5ba4791ca614246d3090a1c04a0fdc",
+   "subject": "20"
+  },
+  {
+   "file": "P020/Movements/movements_P020_BW_M2.mp4",
+   "bytes": 287436,
+   "sha256": "66d70c87595dd89befa36a989eabf45167466c8041b9127befce799fc63f676c",
+   "subject": "20"
+  },
+  {
+   "file": "P020/Movements/movements_P020_C3S1_M1.csv",
+   "bytes": 2418,
+   "sha256": "9b14a4b5e10060afc7fdca4c36bb82c1ee4564d452963a7e7300238416ef26b7",
+   "subject": "1"
+  },
+  {
+   "file": "P020/Movements/movements_P020_C3S1_M1.mp4",
+   "bytes": 263932,
+   "sha256": "59291b5e6d62d0ed2bdaedad546070b5db87c99ec89dc3b37ff4f75b7f142670",
+   "subject": "1"
+  },
+  {
+   "file": "P021/Comfort/P021_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "610aa1cdfcb2b736bc8ab7c3f4bf1c489f7336422471d5ad8d264e82d573417f",
+   "subject": "21"
+  },
+  {
+   "file": "P021/Comfort/P021_relative.csv",
+   "bytes": 1245,
+   "sha256": "8017e42b4c1b6dcdabdc730c3c0cfc0b335b2730e072c9993e95b0c82bc7fd98",
+   "subject": "21"
+  },
+  {
+   "file": "P021/Comfort/P021_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "fc4ad91f19fa832adf5347e093a6e628e965b3d852dc9cf5641aec23635ad1e2",
+   "subject": "21"
+  },
+  {
+   "file": "P021/EEG/sub-P021_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13751618,
+   "sha256": "b10dc7d7aa0d1d68b0c7a5650559fbaa3b62e8e104ad38855c66fd87f69b8b8e",
+   "subject": "1"
+  },
+  {
+   "file": "P021/EEG/sub-P021_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6373714,
+   "sha256": "fd631cdfbbf001818623c2ff9f70966030a89b19b769d362ab93841b05f7d08f",
+   "subject": "1"
+  },
+  {
+   "file": "P021/EEG/sub-P021_ses-S001_task-T3_acq-C3S3_M2_run-001_eeg.xdf",
+   "bytes": 6469399,
+   "sha256": "c4bc74199c6cf704d3c51d8ed4e786a1fffa2c0a2c18f8c05d05c739ae6b72b1",
+   "subject": "1"
+  },
+  {
+   "file": "P021/Movements/movements_P021_BW_M1.csv",
+   "bytes": 2359,
+   "sha256": "e0eec4ad4be56f67fd9760941393fdc9f1184509558cd21c13a128c49032200a",
+   "subject": "21"
+  },
+  {
+   "file": "P021/Movements/movements_P021_BW_M1.mp4",
+   "bytes": 198317,
+   "sha256": "bfbed9afd742f6c730a03594d5ad5484466a1d93524387ff3fe9ad9179c7d18e",
+   "subject": "21"
+  },
+  {
+   "file": "P021/Movements/movements_P021_C3S3_M2.csv",
+   "bytes": 2608,
+   "sha256": "b67e16c8d7f70150687e3be6d6c498d9b81e49618d9b9c1437a69eb90072a9bb",
+   "subject": "3"
+  },
+  {
+   "file": "P021/Movements/movements_P021_C3S3_M2.mp4",
+   "bytes": 286618,
+   "sha256": "57d4d4682e38ea9dd61c694540b6c9dfe5999c03bc052bcb659c0d4286c92268",
+   "subject": "3"
+  },
+  {
+   "file": "P022/Comfort/P022_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "f33a3c30c9ec3887d726e09f3ecfb2a337bfc9e6c696b35ceae810c91c101fbf",
+   "subject": "22"
+  },
+  {
+   "file": "P022/Comfort/P022_relative.csv",
+   "bytes": 1245,
+   "sha256": "663de8f178c6ea4a488c2f23c9f06342a6116f0593c2ce024b7b976d8cb16074",
+   "subject": "22"
+  },
+  {
+   "file": "P022/Comfort/P022_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "e0fbf911af8676588926547d099cad3809f15632acd8edaa76e4f17b3a22a0c5",
+   "subject": "22"
+  },
+  {
+   "file": "P022/EEG/sub-P022_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 19133545,
+   "sha256": "156f05ac1ada6e1a8eea0193070333101e0e1b468b0ca1ae6720bec4c0197e19",
+   "subject": "1"
+  },
+  {
+   "file": "P022/EEG/sub-P022_ses-S001_task-T2_acq-C4S2_M1_run-001_eeg.xdf",
+   "bytes": 12323724,
+   "sha256": "c0ef04364de1d553ec32018f8df74ee63c01579ad080b015e0e9bc4861ac6245",
+   "subject": "1"
+  },
+  {
+   "file": "P022/EEG/sub-P022_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 13156113,
+   "sha256": "9eed818c1d580b345536b91765e2ad4ffb898436d3768c08355fc90ff4b786b4",
+   "subject": "1"
+  },
+  {
+   "file": "P022/Movements/movements_P022_BW_M2.csv",
+   "bytes": 3458,
+   "sha256": "acadae4cdcba72350cc642ea8f8e983d705cd05c43b066ec54959f15f5cebb55",
+   "subject": "22"
+  },
+  {
+   "file": "P022/Movements/movements_P022_BW_M2.mp4",
+   "bytes": 355298,
+   "sha256": "cb86183ca757ab32db81ff6e4ac673d001064c1d6c253d287045fd049a9ee0fa",
+   "subject": "22"
+  },
+  {
+   "file": "P022/Movements/movements_P022_C4S2_M1.csv",
+   "bytes": 2586,
+   "sha256": "d9091fbf3bf61ac63c47108fc0ca12a15da1fc50b4ed62b4e85fd24713ff5710",
+   "subject": "2"
+  },
+  {
+   "file": "P022/Movements/movements_P022_C4S2_M1.mp4",
+   "bytes": 265715,
+   "sha256": "dbaa46567e376c2fec0757c0f654b8a95bc9aec02c99306ef1359a68fcb3295c",
+   "subject": "2"
+  },
+  {
+   "file": "P023/Comfort/P023_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "9dbcfce4f6527953ac89791891f737951ed92b570ef52df65d5c78791e3454cf",
+   "subject": "23"
+  },
+  {
+   "file": "P023/Comfort/P023_relative.csv",
+   "bytes": 1245,
+   "sha256": "c0ede4692b8bc0194a2abcc6a5d056ba0989d8273885adac199961ef47af4647",
+   "subject": "23"
+  },
+  {
+   "file": "P023/Comfort/P023_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "1a8ec69244704ab1c0b737983b0df31df0c666cf2e18e6fa0113f70749b2c3b3",
+   "subject": "23"
+  },
+  {
+   "file": "P023/EEG/sub-P023_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 18778327,
+   "sha256": "892ea0b89d956bbeb244c1c37524d4cb31867008d6bd3c5968840a00a742a6dc",
+   "subject": "1"
+  },
+  {
+   "file": "P023/EEG/sub-P023_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 9192698,
+   "sha256": "2de90f5e293a7f87f3bc9fc42df480d528ccfc875bb61dcf44c716bf77795790",
+   "subject": "1"
+  },
+  {
+   "file": "P024/Comfort/P024_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "794a1157f5b19598ee1488e569e336b1470cb0425f92e3b284a4fcb545ce3395",
+   "subject": "24"
+  },
+  {
+   "file": "P024/Comfort/P024_relative.csv",
+   "bytes": 1245,
+   "sha256": "b8384624ca27aca9ab9889b38ffd4a095bbc3460807f97ebf733551886679a42",
+   "subject": "24"
+  },
+  {
+   "file": "P024/Comfort/P024_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "1ce6a652dde7c7329a6333a18be7fde3907f9fb7b70232c9989eed97ce8e0f20",
+   "subject": "24"
+  },
+  {
+   "file": "P024/EEG/sub-P024_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14737328,
+   "sha256": "d2cd0a60d98a0d4217e6b31271008e4cb432f8890b39a435847225987858165d",
+   "subject": "1"
+  },
+  {
+   "file": "P024/EEG/sub-P024_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 11125089,
+   "sha256": "bd45f7ee43f3cfd20dccd61d381a45dddce0cf8c047612b73b3e63dd0c21e557",
+   "subject": "1"
+  },
+  {
+   "file": "P024/EEG/sub-P024_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6021775,
+   "sha256": "e2a921ac31c9b3f12cb8a64e9b41854a4ddaad15beb381f79d5c7e34463792de",
+   "subject": "1"
+  },
+  {
+   "file": "P024/Movements/movements_P024_BW_M2.csv",
+   "bytes": 2238,
+   "sha256": "6f3208a03c810ccde67c0f9818cfd25bc5cbfa89e542be0e078e3b84a407aee0",
+   "subject": "24"
+  },
+  {
+   "file": "P024/Movements/movements_P024_BW_M2.mp4",
+   "bytes": 214016,
+   "sha256": "4bd5911acaa83027586e6a559a0aed226c7645812dcabe0fe500e41992d392b9",
+   "subject": "24"
+  },
+  {
+   "file": "P024/Movements/movements_P024_C4S1_M1.csv",
+   "bytes": 3744,
+   "sha256": "36304cd08a539a393271bc05d2e836226c87dab82c074217dc8b5b5a1a3776f4",
+   "subject": "1"
+  },
+  {
+   "file": "P024/Movements/movements_P024_C4S1_M1.mp4",
+   "bytes": 342647,
+   "sha256": "055f860a13ee14ec4d8c4192751b9b7f1561be5d28f4d191ad9e758adb7d1b90",
+   "subject": "1"
+  },
+  {
+   "file": "P025/Comfort/P025_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "11d29d0d58ccc2aca37e147960a160835da29b1c86fb84dc1e582bc3f57949e3",
+   "subject": "25"
+  },
+  {
+   "file": "P025/Comfort/P025_relative.csv",
+   "bytes": 1245,
+   "sha256": "b1454d2d15fb373dd3de0dac92e289ef7b4b71dcb2ee664154dadce3877f1aa2",
+   "subject": "25"
+  },
+  {
+   "file": "P025/Comfort/P025_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "3f06c71fd08ce7b7514a86bf69d320c96e9cce24f468283f21b7648f3873a356",
+   "subject": "25"
+  },
+  {
+   "file": "P025/EEG/sub-P025_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13645104,
+   "sha256": "8949e8f2c045cb7b0f646a693a71bba924d76a16efb52ee39543ba929818db60",
+   "subject": "1"
+  },
+  {
+   "file": "P025/EEG/sub-P025_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 9774873,
+   "sha256": "2652c9c69e3252a139a63500296fe9d287aa1945fa9f9f56e26273121de659e3",
+   "subject": "1"
+  },
+  {
+   "file": "P025/EEG/sub-P025_ses-S001_task-T3_acq-C2S1_M2_run-001_eeg.xdf",
+   "bytes": 11092641,
+   "sha256": "846af6a5d34ac0ea144be6f20dd1cce4a3464ebc7a2ae84c96b800ec6f7c0955",
+   "subject": "1"
+  },
+  {
+   "file": "P025/Movements/movements_P025_BW_M1.csv",
+   "bytes": 2902,
+   "sha256": "3bc92f3a94bacdaa64e2a37ae4fd877842515c21c23472b15b0cc3239a58f7e6",
+   "subject": "25"
+  },
+  {
+   "file": "P025/Movements/movements_P025_BW_M1.mp4",
+   "bytes": 266720,
+   "sha256": "1ff112ff837d5db679409775ce39feb7908ae8a10275cc04408a4ace67de5e4a",
+   "subject": "25"
+  },
+  {
+   "file": "P025/Movements/movements_P025_C2S1_M2.csv",
+   "bytes": 3552,
+   "sha256": "7ef66aef32c0b2c87dc822fbff77e2633ea310a6e2da7d8e9d06664b04292b7c",
+   "subject": "1"
+  },
+  {
+   "file": "P025/Movements/movements_P025_C2S1_M2.mp4",
+   "bytes": 362854,
+   "sha256": "a7d12628e6e23ef797963c6c84b88b0756f9ca03b9a9ced47d8f8883ca991508",
+   "subject": "1"
+  },
+  {
+   "file": "P026/Comfort/P026_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "c55978e958984729c61f846878b5151c72216ceb1ca047de30d248fc351a4fba",
+   "subject": "26"
+  },
+  {
+   "file": "P026/Comfort/P026_relative.csv",
+   "bytes": 1245,
+   "sha256": "24e487688d1efb1fdbc6a7456220ef1f4b5a21456c7ad82d41d12b87a4f9d0fa",
+   "subject": "26"
+  },
+  {
+   "file": "P026/Comfort/P026_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "1f092d3ab907f46f94e8f22ab2599c552866a2c88a5e3d116d62a6fb2d74b6fc",
+   "subject": "26"
+  },
+  {
+   "file": "P026/EEG/sub-P026_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13813878,
+   "sha256": "82c14a625243b08980f3a668783834810db148753c99dbf5cec230cc5777c335",
+   "subject": "1"
+  },
+  {
+   "file": "P026/EEG/sub-P026_ses-S001_task-T2_acq-C4S3_M1_run-001_eeg.xdf",
+   "bytes": 3283577,
+   "sha256": "6aaa0b69cec607bc864588e8b081dc677922ec6723693373c4d70c10f78724ce",
+   "subject": "1"
+  },
+  {
+   "file": "P026/EEG/sub-P026_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 13100022,
+   "sha256": "a3798a01bd14326eda5c9266c5fec9571718018a5dedec99594083ede45087ac",
+   "subject": "1"
+  },
+  {
+   "file": "P026/EEG/sub-P026_ses-S001_task-T4_acq-C3S2_M1_run-001_eeg.xdf",
+   "bytes": 12300734,
+   "sha256": "47bcaf2738fe78dbf7d8fefc4b6c6b8c209c6253e58d440bef8bcb50aafa09f6",
+   "subject": "1"
+  },
+  {
+   "file": "P026/Movements/movements_P026_BW_M2.csv",
+   "bytes": 4980,
+   "sha256": "fe9bbc7852df7f259bb699d42ec2ba5c990cd1161c5dc6ce3ea82c58ff5f1ce9",
+   "subject": "26"
+  },
+  {
+   "file": "P026/Movements/movements_P026_BW_M2.mp4",
+   "bytes": 517406,
+   "sha256": "e4fe3c2cf26a2cb77426bca96224c839b88af38c4fd611cd6db052b7c9823033",
+   "subject": "26"
+  },
+  {
+   "file": "P026/Movements/movements_P026_C3S2_M1.csv",
+   "bytes": 5864,
+   "sha256": "0a6c0b9a4245840ce3c6cd1812aa3dd3ea5eedc15f4349a4aa92578fa934dc5f",
+   "subject": "2"
+  },
+  {
+   "file": "P026/Movements/movements_P026_C3S2_M1.mp4",
+   "bytes": 568868,
+   "sha256": "e4ccd8108460767415fc39d9a0a6b7f87b38553b31310c78abc557c51c43f12e",
+   "subject": "2"
+  },
+  {
+   "file": "P027/Comfort/P027_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "b7662375362b5d99446ee105c6acfff2ee2e344c416eaa0d6b25ee6f2a696687",
+   "subject": "27"
+  },
+  {
+   "file": "P027/Comfort/P027_relative.csv",
+   "bytes": 1245,
+   "sha256": "4fdd5c87df20209b84c82395e828b19813b3851df67cd0c34c7b0e57079b271e",
+   "subject": "27"
+  },
+  {
+   "file": "P027/Comfort/P027_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "c576b298a204bbe64172cf95b48f21d6947c9071064a9c6e8ce3b6c7316ccaa0",
+   "subject": "27"
+  },
+  {
+   "file": "P027/EEG/sub-P027_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14320196,
+   "sha256": "417535944cfb33f2eb68df31ab62dc394aac50c2f57b5f5e858417b8c0f9d8c4",
+   "subject": "1"
+  },
+  {
+   "file": "P027/EEG/sub-P027_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 13458722,
+   "sha256": "ebe9e12aa472be6eb0b2a8346cc14742a5f48a7bb3460c1767962aff7f8d6762",
+   "subject": "1"
+  },
+  {
+   "file": "P027/EEG/sub-P027_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 14476127,
+   "sha256": "45f9d48c74fb36350747ce891472034cbc85eba3cc4338835bb9b0258ee259b5",
+   "subject": "1"
+  },
+  {
+   "file": "P027/Movements/movements_P027_BW_M1.csv",
+   "bytes": 3673,
+   "sha256": "1b6ffac7e5f8e637bb8f82279729543107735090a2fb622a1b6d40a2c3f9e88d",
+   "subject": "27"
+  },
+  {
+   "file": "P027/Movements/movements_P027_BW_M1.mp4",
+   "bytes": 333203,
+   "sha256": "ec15ba5f95d39868c6698e045beb4a42faa37b29b5ffbba5bbe82afaf320d300",
+   "subject": "27"
+  },
+  {
+   "file": "P027/Movements/movements_P027_C4S1_M2.csv",
+   "bytes": 4809,
+   "sha256": "cdeecac95349b3b505356b2c8cce00d6d14adc3938791e005411df03368688bc",
+   "subject": "1"
+  },
+  {
+   "file": "P027/Movements/movements_P027_C4S1_M2.mp4",
+   "bytes": 521071,
+   "sha256": "69c3072dd572129e6f6d95a1a2bd3aced3e1b40ec62f04284ec7853761a98268",
+   "subject": "1"
+  },
+  {
+   "file": "P028/Comfort/P028_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "55a874b7a31fbed2e490b29ce781dc7f749989548390571cd0958762bf15e6a1",
+   "subject": "28"
+  },
+  {
+   "file": "P028/Comfort/P028_relative.csv",
+   "bytes": 1245,
+   "sha256": "743b7503b8597a1b1a06b702141e78297ae01649f7eca46cf21a27106b7619ce",
+   "subject": "28"
+  },
+  {
+   "file": "P028/Comfort/P028_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "1e1da88f11dd13627cbbdbfec9f3787dd0e777aa8878607b47ae2db5be4cd4da",
+   "subject": "28"
+  },
+  {
+   "file": "P028/EEG/sub-P028_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13049998,
+   "sha256": "e659d576182677feec3e91c454bcaedf3e225a9df2d9ff50e35af3f0d933cddc",
+   "subject": "1"
+  },
+  {
+   "file": "P028/EEG/sub-P028_ses-S001_task-T2_acq-C3S1_M2_run-001_eeg.xdf",
+   "bytes": 21137347,
+   "sha256": "e231780fa5ee61b1e708141b24f4a6b4575ad6dfbcd5da62ae7b79b054d8956c",
+   "subject": "1"
+  },
+  {
+   "file": "P028/EEG/sub-P028_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 9825222,
+   "sha256": "6e78747994dda81f75fc6c6e7c592c91cc0c3eb338845954edf1089ea5c23610",
+   "subject": "1"
+  },
+  {
+   "file": "P028/Movements/movements_P028_BW_M1.csv",
+   "bytes": 3576,
+   "sha256": "e5a3a853f6d2cbf2fc0f7631f8528430491b5073739698c254be5f030c8b8e21",
+   "subject": "28"
+  },
+  {
+   "file": "P028/Movements/movements_P028_BW_M1.mp4",
+   "bytes": 338206,
+   "sha256": "2ea94a2d8a9a8f1943ef143a99685cfd386c436cbae9b4e768ea484c505832b4",
+   "subject": "28"
+  },
+  {
+   "file": "P028/Movements/movements_P028_C3S1_M2.csv",
+   "bytes": 10307,
+   "sha256": "d49d701903d98ab621118047de869f1f5aff6ed05ca3bdd2772e3293a11df142",
+   "subject": "1"
+  },
+  {
+   "file": "P028/Movements/movements_P028_C3S1_M2.mp4",
+   "bytes": 1143955,
+   "sha256": "c5fe707a08abf99a11b75d055fd720220a9037177204283a6ac29dd69237a52c",
+   "subject": "1"
+  },
+  {
+   "file": "P029/Comfort/P029_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "fcb3307454a5d085edf98b5c9382c2789e7fd765800ad805c29dedec8fb207a3",
+   "subject": "29"
+  },
+  {
+   "file": "P029/Comfort/P029_relative.csv",
+   "bytes": 1245,
+   "sha256": "679a4c40fe49898c2f25bf971e10906ecb5b4728e6008f381a7925aa72cb33b0",
+   "subject": "29"
+  },
+  {
+   "file": "P029/Comfort/P029_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "c8b23bb2eb5d8e3ab269938c6906632dbb3554e5ade1f66e6d432d9453bae5da",
+   "subject": "29"
+  },
+  {
+   "file": "P029/EEG/sub-P029_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13272099,
+   "sha256": "dd566cfea7320d3137e47e552f107dcb5fb223f0ad61cd32583639a31c5985dc",
+   "subject": "1"
+  },
+  {
+   "file": "P029/EEG/sub-P029_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6164348,
+   "sha256": "ecdda07616dd3f0eb86c8d36d6835002bb4c2124d47182e67fa6b777d308fe16",
+   "subject": "1"
+  },
+  {
+   "file": "P029/EEG/sub-P029_ses-S001_task-T3_acq-C3S1_M1_run-001_eeg.xdf",
+   "bytes": 8102071,
+   "sha256": "71eab0da0ec71e03689d0963abdcec476a0627134e13b399392900358eb4411b",
+   "subject": "1"
+  },
+  {
+   "file": "P029/Movements/movements_P029_BW_M2.csv",
+   "bytes": 2242,
+   "sha256": "b2808a5732dd3d370e3de8ff39e8c8b472d1e555413652d55a41feef1a49b0e5",
+   "subject": "29"
+  },
+  {
+   "file": "P029/Movements/movements_P029_BW_M2.mp4",
+   "bytes": 214014,
+   "sha256": "ee1b542660aef1746bfdcead4626e6b9109d68b1b06fdb307c9aaaf505bbb22f",
+   "subject": "29"
+  },
+  {
+   "file": "P029/Movements/movements_P029_C3S1_M1.csv",
+   "bytes": 2892,
+   "sha256": "f1fb498ebbdf5788ed04067046a1418f01e997c6e080ecf4d1e99ad600058d6d",
+   "subject": "1"
+  },
+  {
+   "file": "P029/Movements/movements_P029_C3S1_M1.mp4",
+   "bytes": 268685,
+   "sha256": "f4998cd11edba52ad8a660187732f6d9d8d10723d768a461460acd697ef68244",
+   "subject": "1"
+  },
+  {
+   "file": "P030/Comfort/P030_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "b8db227c787f1d28eeb8eb633c6e84e7fc955933fc954bb688dd2a1c9940cb73",
+   "subject": "30"
+  },
+  {
+   "file": "P030/Comfort/P030_relative.csv",
+   "bytes": 1245,
+   "sha256": "b3c654c61c5e15d755ea252002ba57483f3f733dd8f716aae06f9041970dc73f",
+   "subject": "30"
+  },
+  {
+   "file": "P030/Comfort/P030_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "bce82963c94098f98a7fc67fe12aa53c49dc51ae1ab28acefde0778ce0dc01b5",
+   "subject": "30"
+  },
+  {
+   "file": "P030/EEG/sub-P030_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13111943,
+   "sha256": "68682d666efcaa16b3e93075a6d60ac8a8d2af8ec638ef6f66885b88c57d5719",
+   "subject": "1"
+  },
+  {
+   "file": "P030/EEG/sub-P030_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 5731640,
+   "sha256": "3c32eabfe417ba6e6220caf52f29c00d7456057eb5a2bb52bded1f7f854e4dd7",
+   "subject": "1"
+  },
+  {
+   "file": "P030/EEG/sub-P030_ses-S001_task-T3_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 12536577,
+   "sha256": "270d9b3fc8a8956f782d86c5467ea0f585d97e23c9e6dad948d5622280a85656",
+   "subject": "1"
+  },
+  {
+   "file": "P030/Movements/movements_P030_BW_M1.csv",
+   "bytes": 2184,
+   "sha256": "88d8260b62749b923e4bf33225c2f0019e06a60ab691a2ed7989bc9088f4c467",
+   "subject": "30"
+  },
+  {
+   "file": "P030/Movements/movements_P030_BW_M1.mp4",
+   "bytes": 197711,
+   "sha256": "4c965439f7a3a33fc63247916541acd21966b1ffbbb2a738c42fc88c392e3983",
+   "subject": "30"
+  },
+  {
+   "file": "P030/Movements/movements_P030_C4S2_M2.csv",
+   "bytes": 4731,
+   "sha256": "ba38c40052b3c823c4be18afdf93cb7a269ebdf5b412e5cb67f87e55227f5a72",
+   "subject": "2"
+  },
+  {
+   "file": "P030/Movements/movements_P030_C4S2_M2.mp4",
+   "bytes": 515907,
+   "sha256": "5627a87c8c140e0c60488f00c4974a39db0c638901d8db09ae6db4121cfce119",
+   "subject": "2"
+  },
+  {
+   "file": "P031/Comfort/P031_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "cd1c306e30ee7294c34e0534fc699fbd1bbb6af33a0eba68bcbef109cabab401",
+   "subject": "31"
+  },
+  {
+   "file": "P031/Comfort/P031_relative.csv",
+   "bytes": 1245,
+   "sha256": "d81d7902864877dfea56b785d3e4206f1cae04ee7cb4e3332c9ae31e25b04c9c",
+   "subject": "31"
+  },
+  {
+   "file": "P031/Comfort/P031_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "cf15868a0cebaa21f90df2bd9e943ecdf458760522933a1e90b00284d969d8cf",
+   "subject": "31"
+  },
+  {
+   "file": "P031/EEG/sub-P031_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13120801,
+   "sha256": "e0ac79e92faa3cb71ada8ed6f59acbf57086e5bc1cfadaa64adfccde5377b446",
+   "subject": "1"
+  },
+  {
+   "file": "P031/EEG/sub-P031_ses-S001_task-T2_acq-C4S3_M1_run-001_eeg.xdf",
+   "bytes": 9197733,
+   "sha256": "877f5b7893c2ecec56c2690374e2790491ae7ec4e05cf859991788aa790ec8af",
+   "subject": "1"
+  },
+  {
+   "file": "P031/EEG/sub-P031_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 8243647,
+   "sha256": "484431f4c02ea1c8c67705e646394a1841752547c881e938cb7ac763bdf9c5b7",
+   "subject": "1"
+  },
+  {
+   "file": "P031/Movements/movements_P031_BW_M2.csv",
+   "bytes": 2725,
+   "sha256": "78b9f9b91e2eef72a3aa50106283f3212e1894f1b9f07b82191ca42adaed30d7",
+   "subject": "31"
+  },
+  {
+   "file": "P031/Movements/movements_P031_BW_M2.mp4",
+   "bytes": 284497,
+   "sha256": "fc77428693ac8d80d3106800b90c845ded16544ec80754e200c4f0f2ee63d1c5",
+   "subject": "31"
+  },
+  {
+   "file": "P031/Movements/movements_P031_C4S1_M1.csv",
+   "bytes": 3538,
+   "sha256": "5f1b6d3cee6ec6fa41a0ce6d7b644501e8cf8195c7296e392aa724a566e9ca14",
+   "subject": "1"
+  },
+  {
+   "file": "P031/Movements/movements_P031_C4S1_M1.mp4",
+   "bytes": 346793,
+   "sha256": "0385cfbf1637d7c032952d414205db588b0beac02495a325cbe421a1ffc5ada7",
+   "subject": "1"
+  },
+  {
+   "file": "P032/Comfort/P032_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "b3037fcb460ec7df02445ac56925ce936c92ad45e68ff9efcb5c66654f66a565",
+   "subject": "32"
+  },
+  {
+   "file": "P032/Comfort/P032_relative.csv",
+   "bytes": 1245,
+   "sha256": "772448f8225752de72f4d21fb56dcb5f3067e98f021b9977349d664fe2db9ef1",
+   "subject": "32"
+  },
+  {
+   "file": "P032/Comfort/P032_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "073316850fb1a245d7272d936a56d6269ff6716e983fb15b2db2a59f7382a535",
+   "subject": "32"
+  },
+  {
+   "file": "P032/EEG/sub-P032_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13262955,
+   "sha256": "b7ce2b6bb417185a994786f6cf960a0f0b8038e034595161b57f2af5287466da",
+   "subject": "1"
+  },
+  {
+   "file": "P032/EEG/sub-P032_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 7315087,
+   "sha256": "a47c8f0bd9dec95f6b9c69c71468b4b417b0590159f36295f3ebf51cf71cf432",
+   "subject": "1"
+  },
+  {
+   "file": "P032/EEG/sub-P032_ses-S001_task-T3_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 6865714,
+   "sha256": "75a27a75c5f9f82908b1c1bb9fb65ef93af1c49443b329132b0eb0408921bc52",
+   "subject": "1"
+  },
+  {
+   "file": "P032/Movements/movements_P032_BW_M2.csv",
+   "bytes": 2240,
+   "sha256": "87701068ce6b6fff0881dc00c9df2e0b85c8d38480c5748b932584912b3906b6",
+   "subject": "32"
+  },
+  {
+   "file": "P032/Movements/movements_P032_BW_M2.mp4",
+   "bytes": 213992,
+   "sha256": "8e40d47ecc514e8d85c159048b5cea459e1141da5a0324b7a3029dea5ad735a4",
+   "subject": "32"
+  },
+  {
+   "file": "P032/Movements/movements_P032_C4S1_M1.csv",
+   "bytes": 2418,
+   "sha256": "6df6b10fbeb9657fcea437b3e60ea31c295a93d448cc172940820a8ee22f2edc",
+   "subject": "1"
+  },
+  {
+   "file": "P032/Movements/movements_P032_C4S1_M1.mp4",
+   "bytes": 262441,
+   "sha256": "e8e480fbcd0140ef28d2c628c58c405f3fa1648019bd20a853e031511f3d7232",
+   "subject": "1"
+  },
+  {
+   "file": "P033/Comfort/P033_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "6d9bcc7680333380f8018c0a6be6262320518b0c54d571aa6d810285865e2c95",
+   "subject": "33"
+  },
+  {
+   "file": "P033/Comfort/P033_relative.csv",
+   "bytes": 1245,
+   "sha256": "25cc11438880daf0fc600b742d44ea1cb4c38c670c968af5ea5e6dfac89f9bae",
+   "subject": "33"
+  },
+  {
+   "file": "P033/Comfort/P033_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "40f5f6ea1b5477f9f9b292c036117bf410cc85686a040e29c90cd0e661d124e0",
+   "subject": "33"
+  },
+  {
+   "file": "P033/EEG/sub-P033_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13387218,
+   "sha256": "bdf4277811dda07bbd30bb2e42a300c5ab08e023d644ccd94424925118474322",
+   "subject": "1"
+  },
+  {
+   "file": "P033/EEG/sub-P033_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 10989519,
+   "sha256": "977a5d19d25c385880413e0225d35454105684def41b51724eb18b7cd04eee61",
+   "subject": "1"
+  },
+  {
+   "file": "P033/EEG/sub-P033_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 19940825,
+   "sha256": "89b6bac3b7fd9aabfaeb1db06313beebf74a7402900dd4b951d180e632abea62",
+   "subject": "1"
+  },
+  {
+   "file": "P033/Movements/movements_P033_BW_M2.csv",
+   "bytes": 5659,
+   "sha256": "2f5ce97ab43f72397cd326f2e5c7ca9ff2a694dbdc241e2bb55ae86af50ffe7d",
+   "subject": "33"
+  },
+  {
+   "file": "P033/Movements/movements_P033_BW_M2.mp4",
+   "bytes": 593819,
+   "sha256": "9ed43d4c74ea07c3ba1de6ad22d4f9c321d614ac72f6ae2dd5b602bb47619264",
+   "subject": "33"
+  },
+  {
+   "file": "P033/Movements/movements_P033_C4S1_M1.csv",
+   "bytes": 2712,
+   "sha256": "1430c714bcdef80a506197766710b440ffaaa9bd3c8d9c0f01a08c274f77bc0a",
+   "subject": "1"
+  },
+  {
+   "file": "P033/Movements/movements_P033_C4S1_M1.mp4",
+   "bytes": 267773,
+   "sha256": "d9f759234c63875b3d014f384da0f0f724275178444f82b64a8e4af4ec98165a",
+   "subject": "1"
+  },
+  {
+   "file": "P034/Comfort/P034_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "72db529ca66d1f77d7ffeda4f4e30379755a233ebe9c807105f9843937de0ab1",
+   "subject": "34"
+  },
+  {
+   "file": "P034/Comfort/P034_relative.csv",
+   "bytes": 1245,
+   "sha256": "42fa1c0f65be7a998b75681b1f0359c8e39843d76ec34b23476614021d9a73a3",
+   "subject": "34"
+  },
+  {
+   "file": "P034/Comfort/P034_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "cda34b803c166e493e6d43007008ceb17d48a3d88cd701e45d6cc3ed9bafb289",
+   "subject": "34"
+  },
+  {
+   "file": "P034/EEG/sub-P034_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14994563,
+   "sha256": "049001eae745c7fabca7e15dfe87c412b15142446bc8b2d5fdbfae0fb5ac9e31",
+   "subject": "1"
+  },
+  {
+   "file": "P034/EEG/sub-P034_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 12090414,
+   "sha256": "e88527f43af1a95bfd93124335ccd113a1da787c0e10665c518a6f0e29f03bbd",
+   "subject": "1"
+  },
+  {
+   "file": "P034/EEG/sub-P034_ses-S001_task-T3_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 7807080,
+   "sha256": "ead48bb7ce4c5d2b51daf245659b2dcaa9180ef4a0ee95fd4d1d9fafda400c4c",
+   "subject": "1"
+  },
+  {
+   "file": "P034/Movements/movements_P034_BW_M1.csv",
+   "bytes": 3613,
+   "sha256": "6f9f9776a3cfbc8d0b530a32e2d231c4364a4d6e399e28fc15c208e210035af0",
+   "subject": "34"
+  },
+  {
+   "file": "P034/Movements/movements_P034_BW_M1.mp4",
+   "bytes": 332379,
+   "sha256": "f6c35aa0ed3c6391ba2436f2dbb216b870429b228b829f5d663b9f30b806ebb9",
+   "subject": "34"
+  },
+  {
+   "file": "P034/Movements/movements_P034_C4S1_M2.csv",
+   "bytes": 2611,
+   "sha256": "ae5e02cfab1d66e87d59a0f1e2b05c35390e4707ba93e6dbd3bd2c1bd8325505",
+   "subject": "1"
+  },
+  {
+   "file": "P034/Movements/movements_P034_C4S1_M2.mp4",
+   "bytes": 287418,
+   "sha256": "086a94390cd9106ef35385e3b5f88fc8d968073eccb221f2dc0de7e694f29448",
+   "subject": "1"
+  },
+  {
+   "file": "P035/Comfort/P035_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "07a36fa7493a15176ac1a9da1b0e9d586f847b772cbe5d59b82f8b4049b61260",
+   "subject": "35"
+  },
+  {
+   "file": "P035/Comfort/P035_relative.csv",
+   "bytes": 1245,
+   "sha256": "8724c179e078e58ef960025a7578d66295ef02b4a19aa1ff5bd10e62ff293ba4",
+   "subject": "35"
+  },
+  {
+   "file": "P035/Comfort/P035_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "d617dc540d1e36700f774c0e26090b2b67b0644ca698e6b7f0cd86d70a091fa8",
+   "subject": "35"
+  },
+  {
+   "file": "P035/EEG/sub-P035_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13422104,
+   "sha256": "54e0146a5817dbd1633942420f39b6fd2d458bc7a379b763b747de40b7637119",
+   "subject": "1"
+  },
+  {
+   "file": "P035/EEG/sub-P035_ses-S001_task-T2_acq-C3S2_M2_run-001_eeg.xdf",
+   "bytes": 6688651,
+   "sha256": "2dcf538b60928bf10d5a5d3f91665aeb5b91b50e384f85ba4b913c95e4cd6312",
+   "subject": "1"
+  },
+  {
+   "file": "P035/EEG/sub-P035_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6984125,
+   "sha256": "0eaf2839dd8137bb4800c35398eecb93bd9638827b3d7041e0d3f6f29d61b5d2",
+   "subject": "1"
+  },
+  {
+   "file": "P035/Movements/movements_P035_BW_M1.csv",
+   "bytes": 2540,
+   "sha256": "266f0253daacf668722377d49378431c30b3ee50da5c4ce80ada3bc96e5b69b4",
+   "subject": "35"
+  },
+  {
+   "file": "P035/Movements/movements_P035_BW_M1.mp4",
+   "bytes": 259450,
+   "sha256": "4be39616ce5e92b5c571acd8324cb1b6302ef80bf4eee4dc84b255c23f50892e",
+   "subject": "35"
+  },
+  {
+   "file": "P035/Movements/movements_P035_C3S2_M2.csv",
+   "bytes": 2300,
+   "sha256": "66b4d8002394826dd9b99fbfbeca44306fda2412e03f8346b24404efe9792c0a",
+   "subject": "2"
+  },
+  {
+   "file": "P035/Movements/movements_P035_C3S2_M2.mp4",
+   "bytes": 218567,
+   "sha256": "69a63f63f11da460f1cac7625bef7864bca4f482c9c19374831774b53e3e07b0",
+   "subject": "2"
+  },
+  {
+   "file": "P036/Comfort/P036_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "51a9ca39798f2f9ef83eadc977ccfd3651c5748e0238ac513b13cc6e17ecdac0",
+   "subject": "36"
+  },
+  {
+   "file": "P036/Comfort/P036_relative.csv",
+   "bytes": 1245,
+   "sha256": "57752db96d391dd37c5b0745afd2f7c8374cbb83a1c9c73ea8f4e5b710bc5951",
+   "subject": "36"
+  },
+  {
+   "file": "P036/Comfort/P036_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "4d82cd995b8ac633e572958d0ba86765453df246f32d2e19f221586d024ab635",
+   "subject": "36"
+  },
+  {
+   "file": "P036/EEG/sub-P036_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14203670,
+   "sha256": "99ade2698ba8add1b423730b707af3238a8c650631c5e5f1e3a617721ff6aabf",
+   "subject": "1"
+  },
+  {
+   "file": "P036/EEG/sub-P036_ses-S001_task-T2_acq-C2S1_M1_run-001_eeg.xdf",
+   "bytes": 8096361,
+   "sha256": "6fa6c4f944732db7c674043ea3a8dbbd0f1c5fd5ea29ccb2a090794f880c7df2",
+   "subject": "1"
+  },
+  {
+   "file": "P036/EEG/sub-P036_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 9996795,
+   "sha256": "f4dc50d4fbc071d217ea63f31b597746c5b7f96e78a0c407969b2e71774635bb",
+   "subject": "1"
+  },
+  {
+   "file": "P036/Movements/movements_P036_BW_M2.csv",
+   "bytes": 2910,
+   "sha256": "d9380392028d51b1065e9278206d71c04944d23a1559d9fa4ceb0324a29ad22f",
+   "subject": "36"
+  },
+  {
+   "file": "P036/Movements/movements_P036_BW_M2.mp4",
+   "bytes": 289007,
+   "sha256": "fa5b8b95e7a361d1f4043f8adee39c0bfe08e3a2adb45de6f997e3b556656c54",
+   "subject": "36"
+  },
+  {
+   "file": "P036/Movements/movements_P036_C2S1_M1.csv",
+   "bytes": 2421,
+   "sha256": "3c70e013bb9f9f33087c68727ad5411f96783c48cbd0a8a406c585342c61b84d",
+   "subject": "1"
+  },
+  {
+   "file": "P036/Movements/movements_P036_C2S1_M1.mp4",
+   "bytes": 263277,
+   "sha256": "6d0142b9603e5b55b72b1e7e76fb5eab3fe19e618ff500b20c8d88dc0f4abffa",
+   "subject": "1"
+  },
+  {
+   "file": "P037/Comfort/P037_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a0141fab161b1e9f49bff20d41709420baf93ddba7888c730508b7709b11f4d8",
+   "subject": "37"
+  },
+  {
+   "file": "P037/Comfort/P037_relative.csv",
+   "bytes": 1245,
+   "sha256": "56f2183f6b668dcb7c64190e6f2cd444d6e0751d6f080a2d4fc018ef0436338b",
+   "subject": "37"
+  },
+  {
+   "file": "P037/Comfort/P037_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "a6ea11a09b0f88d1571200a79d01992d5594ad91f962424beaac9e34054ec0c7",
+   "subject": "37"
+  },
+  {
+   "file": "P037/EEG/sub-P037_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13200187,
+   "sha256": "956fdc678a10e36f75fcbc393f9f4c08dc51baa44e98f734d2cdc8963f2a60eb",
+   "subject": "1"
+  },
+  {
+   "file": "P037/EEG/sub-P037_ses-S001_task-T2_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 14012096,
+   "sha256": "7453d811b9b60bafa0e8ad08b62f072dacb190a8931a490b9d68a93fd40546c0",
+   "subject": "1"
+  },
+  {
+   "file": "P037/EEG/sub-P037_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 5492920,
+   "sha256": "7a183c06facc887fc0ca815d081a5a38bd0a8b0eeae5f1ac4551ae8fbfc72284",
+   "subject": "1"
+  },
+  {
+   "file": "P037/Movements/movements_P037_BW_M1.csv",
+   "bytes": 2241,
+   "sha256": "eabc13daacc3b4612bc9170645dbc091d0acd354fa75f622b368778fa8047e0f",
+   "subject": "37"
+  },
+  {
+   "file": "P037/Movements/movements_P037_BW_M1.mp4",
+   "bytes": 197832,
+   "sha256": "b561b1d03b92944da3365af500d76e8e0ed7ae6956344fd72f793a4ce97755e1",
+   "subject": "37"
+  },
+  {
+   "file": "P037/Movements/movements_P037_C4S1_M2.csv",
+   "bytes": 5525,
+   "sha256": "227563d61cc50181550720c1b1bb73c9e2b59ccd7057207ace773f6dd94f4eab",
+   "subject": "1"
+  },
+  {
+   "file": "P037/Movements/movements_P037_C4S1_M2.mp4",
+   "bytes": 598374,
+   "sha256": "8c1d37567b736b8c319077e66655b6998fd6f1f0cdccd08dd781bb3062199894",
+   "subject": "1"
+  },
+  {
+   "file": "P038/Comfort/P038_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "6097ace35c641614f0b1d9c91fb2298757c2fb1476a0ec50977cff5e130430cf",
+   "subject": "38"
+  },
+  {
+   "file": "P038/Comfort/P038_relative.csv",
+   "bytes": 1245,
+   "sha256": "88d4f9bf4e9b94b0fdedb132410939569470c77c6980484092128f8e49fe8e1a",
+   "subject": "38"
+  },
+  {
+   "file": "P038/Comfort/P038_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "7fd4b250747cc780ae95097fbb48784c46f693c5741e0789ad14bcd343af5e50",
+   "subject": "38"
+  },
+  {
+   "file": "P038/EEG/sub-P038_ses-S001_task-T1  _run-001_eeg.xdf",
+   "bytes": 13422013,
+   "sha256": "a9febb4fbe7aaa9c323edade82e2861c016ae9f7edb700c67bd188aaa63b5f6e",
+   "subject": "1"
+  },
+  {
+   "file": "P038/EEG/sub-P038_ses-S001_task-T2_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 10797549,
+   "sha256": "432e020d9f329a74f9642ef4b4e0181347e86a5ed253f7e3781bc59908ae281f",
+   "subject": "1"
+  },
+  {
+   "file": "P038/EEG/sub-P038_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6179353,
+   "sha256": "ff75e7fa8ebc1e1f4d0b8e36dc5dd1d962f05f08a09dbcc037729b571a28c413",
+   "subject": "1"
+  },
+  {
+   "file": "P038/Movements/movements_P038_BW_M1.csv",
+   "bytes": 2431,
+   "sha256": "87fda9827ccd4f899c5f71951ea59051af57ec2a96acf81f3fa1c042a0e40fac",
+   "subject": "38"
+  },
+  {
+   "file": "P038/Movements/movements_P038_BW_M1.mp4",
+   "bytes": 258784,
+   "sha256": "0acd7dffc3e639801f1a55eaeea4ef8bb1dd14d8bb65de5edb23dec8f0559a5d",
+   "subject": "38"
+  },
+  {
+   "file": "P038/Movements/movements_P038_C4S2_M2.csv",
+   "bytes": 4112,
+   "sha256": "43dead42371d220fb291637744b09ed0088f8bc5dba9c285f1d2b60eda5f2054",
+   "subject": "2"
+  },
+  {
+   "file": "P038/Movements/movements_P038_C4S2_M2.mp4",
+   "bytes": 442530,
+   "sha256": "5692536cb5d39abac7a65650f01557cb2d40ed3822222def00d001fa993411d8",
+   "subject": "2"
+  },
+  {
+   "file": "P039/Comfort/P039_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a92ff7a8acefd0f7364c5b5d788c6a32efd053a9ad702635e3d29950d65f9564",
+   "subject": "39"
+  },
+  {
+   "file": "P039/Comfort/P039_relative.csv",
+   "bytes": 1245,
+   "sha256": "8ec8c15e3f996cb7bec8c7cb55c5e602cec384296f0a16616037175bd850f5c5",
+   "subject": "39"
+  },
+  {
+   "file": "P039/Comfort/P039_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "65c7cd2e51a22fef1c0be36aeb89b0b57034eb3627af4f277047ff9bd50bb1dc",
+   "subject": "39"
+  },
+  {
+   "file": "P039/EEG/sub-P039_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 18287331,
+   "sha256": "5d205d29a724d1e1976e86c4107962855d36572d42ccdd803efa0370b3e70b63",
+   "subject": "1"
+  },
+  {
+   "file": "P039/EEG/sub-P039_ses-S001_task-T2_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 7977681,
+   "sha256": "a8cde8472020a82305c070f1af7c57833484e2d81f176ecab92aba0bfcce4c7b",
+   "subject": "1"
+  },
+  {
+   "file": "P040/Comfort/P040_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "422f39c10570a03f6eb8218773de6ed834fe6d5f28f14773972a0ec124261c60",
+   "subject": "40"
+  },
+  {
+   "file": "P040/Comfort/P040_relative.csv",
+   "bytes": 1245,
+   "sha256": "edf388075a5751ae5d86174ec947e1d86d8514733f29bff4609f9d637bf9636c",
+   "subject": "40"
+  },
+  {
+   "file": "P040/Comfort/P040_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "27709cf0cd22feff456553dc63c689660b7db7166a969c8d1552d1e1a11a826c",
+   "subject": "40"
+  },
+  {
+   "file": "P040/EEG/sub-P040_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13084783,
+   "sha256": "4134c1c9cb5200d7892b2aeffa492921a8606ae674b609869f370a484adf3c81",
+   "subject": "1"
+  },
+  {
+   "file": "P040/EEG/sub-P040_ses-S001_task-T2_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 14267368,
+   "sha256": "ae9260391103e0dcdc2d82320305b7512b3d7420f70122aa848a5653752ff13e",
+   "subject": "1"
+  },
+  {
+   "file": "P040/EEG/sub-P040_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6305529,
+   "sha256": "934b3e76d32bf0d1dd4ff8f17f1b37bd0e9cc2ad898aac1bdc2eeca1eae5e40e",
+   "subject": "1"
+  },
+  {
+   "file": "P040/Movements/movements_P040_BW_M1.csv",
+   "bytes": 2480,
+   "sha256": "c90a5d82d17340071972da094ba46714a5574e8e854f0e96bb392afd8419afc7",
+   "subject": "40"
+  },
+  {
+   "file": "P040/Movements/movements_P040_BW_M1.mp4",
+   "bytes": 259778,
+   "sha256": "37aa8879e90cb82f24f90711a3c7c98d4357debccde362cc3143616540463ad8",
+   "subject": "40"
+  },
+  {
+   "file": "P040/Movements/movements_P040_C4S1_M2.csv",
+   "bytes": 5002,
+   "sha256": "739dcaf7e91a042342dfda46e495efc524aa522743fb2096ce1a6421709018dc",
+   "subject": "1"
+  },
+  {
+   "file": "P040/Movements/movements_P040_C4S1_M2.mp4",
+   "bytes": 526537,
+   "sha256": "263ec0da65cb3938d39626a5a2cfc808f02aee5472b74493a8ce16450feb2ca7",
+   "subject": "1"
+  },
+  {
+   "file": "P041/Comfort/P041_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "b8debcefc82c5d8a5673ada3fe6a952fbc55876732d41dd36fe4510420d9b764",
+   "subject": "41"
+  },
+  {
+   "file": "P041/Comfort/P041_relative.csv",
+   "bytes": 1245,
+   "sha256": "5b1e871f16ae6b828d96171ce48e9d85263c80171751b467348da3ec89dbd93f",
+   "subject": "41"
+  },
+  {
+   "file": "P041/Comfort/P041_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "fe134e858a9209acd41ab70245077a34ba9c7d3f6239787d80e190d3fc40d3aa",
+   "subject": "41"
+  },
+  {
+   "file": "P041/EEG/sub-P041_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13368784,
+   "sha256": "a570ca95796fb28ebc5cdffcb9a0e39652062910ab14c2d31decb77890147baf",
+   "subject": "1"
+  },
+  {
+   "file": "P041/EEG/sub-P041_ses-S001_task-T2_acq-C4S1_M2_run-001_eeg.xdf",
+   "bytes": 13720158,
+   "sha256": "97019c971b652005eba4d7effad5aa4dd40830684ffd50adadd686833cd4d6a7",
+   "subject": "1"
+  },
+  {
+   "file": "P041/EEG/sub-P041_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 5421424,
+   "sha256": "9f8b8ab664b6481fa2396ae71a72500cb41427d852baed1a18612af867e2aa26",
+   "subject": "1"
+  },
+  {
+   "file": "P041/Movements/movements_P041_BW_M1.csv",
+   "bytes": 2232,
+   "sha256": "412bf0c7a49aa7b902dec1d160e035a197ccf26747529cb115f4d15ff9c715af",
+   "subject": "41"
+  },
+  {
+   "file": "P041/Movements/movements_P041_BW_M1.mp4",
+   "bytes": 197295,
+   "sha256": "6cd7564875cc0ab6798ce719a3f826875d3d5d5e6082ca426d69d0051b625234",
+   "subject": "41"
+  },
+  {
+   "file": "P041/Movements/movements_P041_C4S1_M2.csv",
+   "bytes": 4687,
+   "sha256": "cfb54d069a9b819ff85110235b618fb31a9f67a5c2b35b2ae588475eeb5e9de8",
+   "subject": "1"
+  },
+  {
+   "file": "P041/Movements/movements_P041_C4S1_M2.mp4",
+   "bytes": 516543,
+   "sha256": "abe52f4f423da9ab6df42a8925227cf41776f1c4a6cba6d885cb041809f7a1e8",
+   "subject": "1"
+  },
+  {
+   "file": "P042/Comfort/P042_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "8ce227f5240c1ac55c9be4b96bcb8d3d7cbe587629646329b1287ea397d14c7f",
+   "subject": "42"
+  },
+  {
+   "file": "P042/Comfort/P042_relative.csv",
+   "bytes": 1245,
+   "sha256": "caa6a5a800576cf39656a6dd57e18f4665b2918a64d38093ec616fcc2c75d54c",
+   "subject": "42"
+  },
+  {
+   "file": "P042/Comfort/P042_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "3126259bad796c16bc8b17dc239957ae6994cefb13313fd3674415c3d09c62dd",
+   "subject": "42"
+  },
+  {
+   "file": "P042/EEG/sub-P042_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13493088,
+   "sha256": "1b1c7772a72b3abc256b92e64e0fbcd484c65f4408991fb5b00add9cce05d70e",
+   "subject": "1"
+  },
+  {
+   "file": "P042/EEG/sub-P042_ses-S001_task-T2_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 6736550,
+   "sha256": "243c8ee4bdab2690013a6c5a3ccb1cbeeaf5b1641a65213bd4aa8afefde832d3",
+   "subject": "1"
+  },
+  {
+   "file": "P042/EEG/sub-P042_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 6076657,
+   "sha256": "4cb0b64a132407df818574c1236812404ebb462ccf5b9ba9cf77c87a8cf9a159",
+   "subject": "1"
+  },
+  {
+   "file": "P042/Movements/movements_P042_BW_M1.csv",
+   "bytes": 2300,
+   "sha256": "609641e38ec2ba4796dfad3129d3b5ba09e253452510f50b3b48f26862950aac",
+   "subject": "42"
+  },
+  {
+   "file": "P042/Movements/movements_P042_BW_M1.mp4",
+   "bytes": 199212,
+   "sha256": "4c920253be1656891ef3ed2c3196e9114e0f500a4b171f05e5b88066aa261155",
+   "subject": "42"
+  },
+  {
+   "file": "P042/Movements/movements_P042_C4S2_M2.csv",
+   "bytes": 2425,
+   "sha256": "a6e51575b3f08f46458ffaed67b15c109bbe8f04f59999bebd0ea7598919398d",
+   "subject": "2"
+  },
+  {
+   "file": "P042/Movements/movements_P042_C4S2_M2.mp4",
+   "bytes": 284832,
+   "sha256": "6a26db43d3ccb3e73ff3607075f5ad0d55c272f40749f16c8da0a00e3fd412a7",
+   "subject": "2"
+  },
+  {
+   "file": "P043/Comfort/P043_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "de29c256fca7cdea966057215624e8bd40c5b99bcbcede9e32e9c41021e82027",
+   "subject": "43"
+  },
+  {
+   "file": "P043/Comfort/P043_relative.csv",
+   "bytes": 1245,
+   "sha256": "0410a17d9c61977ab52410e1f56293d8f4769723847d08e844fd1aca888980e3",
+   "subject": "43"
+  },
+  {
+   "file": "P043/Comfort/P043_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "6b009f55f7f4662b6aae74e40a9c4dadc6294eda88eade809b666a59fac6fd6c",
+   "subject": "43"
+  },
+  {
+   "file": "P043/EEG/sub-P043_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13778173,
+   "sha256": "7aec50040d40e5643e7bb7b19706438603c2061d94474c674d144c7c434fe2a5",
+   "subject": "1"
+  },
+  {
+   "file": "P043/EEG/sub-P043_ses-S001_task-T2_acq-C2S1_M2_run-001_eeg.xdf",
+   "bytes": 12825258,
+   "sha256": "5c6733655651f70e203494b26dc51a98b4638fe53c507a58ee03fe509d1fd55f",
+   "subject": "1"
+  },
+  {
+   "file": "P044/Comfort/P044_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "d6b775d9555bbf077d1d8078c59a5d95094e239ca98af569d24acc307e1ea778",
+   "subject": "44"
+  },
+  {
+   "file": "P044/Comfort/P044_relative.csv",
+   "bytes": 1245,
+   "sha256": "532f15880246d458e76ba9fd52cbf9f8dec30658e18dac571ac43bceb4e53736",
+   "subject": "44"
+  },
+  {
+   "file": "P044/Comfort/P044_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "80cc0038199587023f981b29b81e1889d6e7b0ab457bb35958698e6e4e2a397f",
+   "subject": "44"
+  },
+  {
+   "file": "P044/EEG/sub-P044_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 16664487,
+   "sha256": "1fb3511bffc0f25b8591e9eb3883d02f5d2b3c8d9fd753ae1ea3679e552d3e15",
+   "subject": "1"
+  },
+  {
+   "file": "P044/EEG/sub-P044_ses-S001_task-T2_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 9804884,
+   "sha256": "408a9afc042d4903da6feecf49e688dac8dfee724a570aa89222e8af3748500c",
+   "subject": "1"
+  },
+  {
+   "file": "P044/EEG/sub-P044_ses-S001_task-T3_acq-C3S3_M2_run-001_eeg.xdf",
+   "bytes": 9320895,
+   "sha256": "673c5ae50a5998d4e4faa58ea540664f848088d4978301832e2d2a66b8305fc5",
+   "subject": "1"
+  },
+  {
+   "file": "P044/Movements/movements_P044_BW_M1.csv",
+   "bytes": 2709,
+   "sha256": "04cce8e689ff9a03d0ee3676b3f209a06b82424492443fe24c93ac7ae47b4254",
+   "subject": "44"
+  },
+  {
+   "file": "P044/Movements/movements_P044_BW_M1.mp4",
+   "bytes": 262525,
+   "sha256": "9a40eecd8f75514faf5199a48cb6ea6d129843f201619a442095b68d657b773b",
+   "subject": "44"
+  },
+  {
+   "file": "P044/Movements/movements_P044_C3S3_M2.csv",
+   "bytes": 2941,
+   "sha256": "28ce8fe1f4af47cb57ea884652cab37ad0e5fd18f134f42b0cc7249937a62f98",
+   "subject": "3"
+  },
+  {
+   "file": "P044/Movements/movements_P044_C3S3_M2.mp4",
+   "bytes": 293607,
+   "sha256": "12622cb26d4c65a09539cdddcd5be8dbf9a5f931725dd3744190376739fded8d",
+   "subject": "3"
+  },
+  {
+   "file": "P045/Comfort/P045_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "8311afdb013c4587b97b44d947bb81a5f7098cb34533feacef3f334e9f95f7b3",
+   "subject": "45"
+  },
+  {
+   "file": "P045/Comfort/P045_relative.csv",
+   "bytes": 1245,
+   "sha256": "bedd8ae996ff57bfcc2962838ae1a45e42ebcfd257b9435b87447c955b7d119e",
+   "subject": "45"
+  },
+  {
+   "file": "P045/Comfort/P045_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "ebc8135bd16b53b85c363641af4471b8efc3438461b4fb09fb00e7ec0748eccb",
+   "subject": "45"
+  },
+  {
+   "file": "P045/EEG/sub-P045_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 15011607,
+   "sha256": "ec4d52b73a685d63d751b609dbb1c1543557a31eadb0db4156e8e5c10ed27eb6",
+   "subject": "1"
+  },
+  {
+   "file": "P045/EEG/sub-P045_ses-S001_task-T2_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 13637916,
+   "sha256": "05d35cae0374152b45109e4062bfa09b02199213119ba4dfb28ade12bbe0494b",
+   "subject": "1"
+  },
+  {
+   "file": "P045/EEG/sub-P045_ses-S001_task-T3_acq-C4S3_M1_run-001_eeg.xdf",
+   "bytes": 21109727,
+   "sha256": "30ad6b091d63194a8ddad7dae87fc3f2adc8d5cec4431bdbc6b0148a0125053f",
+   "subject": "1"
+  },
+  {
+   "file": "P045/Movements/movements_P045_BW_M2.csv",
+   "bytes": 2897,
+   "sha256": "1f90298685eb32edaf4f3336e09637ba44156117f374be994d22f46f11fb9be9",
+   "subject": "45"
+  },
+  {
+   "file": "P045/Movements/movements_P045_BW_M2.mp4",
+   "bytes": 285738,
+   "sha256": "d19f573ba24076ea1c539bc35b38ef6258b9e0f61b90d816db2f1a2c758564b7",
+   "subject": "45"
+  },
+  {
+   "file": "P045/Movements/movements_P045_C4S3_M1.csv",
+   "bytes": 4523,
+   "sha256": "8b399c9b42b4f0b3850d7b991a30efee872b6adc4a5cee51d0d102db7415646b",
+   "subject": "3"
+  },
+  {
+   "file": "P045/Movements/movements_P045_C4S3_M1.mp4",
+   "bytes": 419832,
+   "sha256": "1ae51d18fd0efe6e37c45a9e8281d3775ac662ff55ece018be76494e9619e998",
+   "subject": "3"
+  },
+  {
+   "file": "P046/Comfort/P046_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "25eadbd21cca7cf769d71d680cceb9ea5f4ed40332233704f98a397ba34c3b63",
+   "subject": "46"
+  },
+  {
+   "file": "P046/Comfort/P046_relative.csv",
+   "bytes": 1245,
+   "sha256": "3c5e1c602df31966136131a97f7f30b3bd6d2ea34963d383b2d86d1c1826dcda",
+   "subject": "46"
+  },
+  {
+   "file": "P046/Comfort/P046_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "afa471bbea3ed235bad15ecb43cf896e9b1b10221d26c70715228522241521f8",
+   "subject": "46"
+  },
+  {
+   "file": "P046/EEG/sub-P046_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 14133069,
+   "sha256": "ab6d912d757bb9eaa5ee93696cd77120aa2978fbef45dc7912678bdab636ca95",
+   "subject": "1"
+  },
+  {
+   "file": "P046/EEG/sub-P046_ses-S001_task-T2_acq-C4S2_M2_run-001_eeg.xdf",
+   "bytes": 21023793,
+   "sha256": "e13d4aa4d78b9e60ead06b2ac37322ec59a8de9576e70e7aa9d3b849357a4ab0",
+   "subject": "1"
+  },
+  {
+   "file": "P046/EEG/sub-P046_ses-S001_task-T3_acq-BW_M1_run-001_eeg.xdf",
+   "bytes": 11513731,
+   "sha256": "0a132cbb9b3c5d3dd190a7d04e397f229f9e639a6e3879a3c8b1e4d334ff110f",
+   "subject": "1"
+  },
+  {
+   "file": "P046/Movements/movements_P046_BW_M1.csv",
+   "bytes": 3611,
+   "sha256": "c544488cd30fc4cc2cbfbe717b0ea7a2024dd9133af370c9aceeacbf7d7c2d49",
+   "subject": "46"
+  },
+  {
+   "file": "P046/Movements/movements_P046_BW_M1.mp4",
+   "bytes": 334565,
+   "sha256": "f913ee396271b435fe7df40b6a1cf18e5c0adb21bf29c380b709223203f79db5",
+   "subject": "46"
+  },
+  {
+   "file": "P046/Movements/movements_P046_C4S2_M2.csv",
+   "bytes": 5036,
+   "sha256": "f88bf5aeaf07e321cd73f2797005f483c3ea5df8c2509878e94b104f2097d824",
+   "subject": "2"
+  },
+  {
+   "file": "P046/Movements/movements_P046_C4S2_M2.mp4",
+   "bytes": 526795,
+   "sha256": "01a79f3539a1145011972537b83e90d013c8c51713837f9caea7d9d475e7d5ee",
+   "subject": "2"
+  },
+  {
+   "file": "P047/Comfort/P047_mean_absolute.csv",
+   "bytes": 266,
+   "sha256": "a465e14afa06dc032e470ba01286f31a4ea4279d355465fa5c335d258cbf6a1b",
+   "subject": "47"
+  },
+  {
+   "file": "P047/Comfort/P047_relative.csv",
+   "bytes": 1245,
+   "sha256": "6525bba614ffc68bfaaf4498a5350ef7af1fd3fd21365d90e042ba87939c17c2",
+   "subject": "47"
+  },
+  {
+   "file": "P047/Comfort/P047_single_absolute.csv",
+   "bytes": 395,
+   "sha256": "c2742faf4c1c39d280b2532fdce76c716dff6a27ac286d25942db45be1656be1",
+   "subject": "47"
+  },
+  {
+   "file": "P047/EEG/sub-P047_ses-S001_task-T1_run-001_eeg.xdf",
+   "bytes": 13058822,
+   "sha256": "1341a892b7300f9ed13f07dd1eef51a8d70a07ead8a1d9f382267c7c4fafc259",
+   "subject": "1"
+  },
+  {
+   "file": "P047/EEG/sub-P047_ses-S001_task-T2_acq-C4S1_M1_run-001_eeg.xdf",
+   "bytes": 7708991,
+   "sha256": "3ab6677a936984af0a7a2c22f1ec959666f76a09f13481ec53879faa8be3a49d",
+   "subject": "1"
+  },
+  {
+   "file": "P047/EEG/sub-P047_ses-S001_task-T3_acq-BW_M2_run-001_eeg.xdf",
+   "bytes": 6505310,
+   "sha256": "b959ea35325494fa5872e553265d32d6bb1431789097c97e8eaf6d8122c0fa52",
+   "subject": "1"
+  },
+  {
+   "file": "P047/Movements/movements_P047_BW_M2.csv",
+   "bytes": 2248,
+   "sha256": "43b0a294a61e8e4850bb66555982d6f063e69ff3f90300ffa91abf47ae5dda5b",
+   "subject": "47"
+  },
+  {
+   "file": "P047/Movements/movements_P047_BW_M2.mp4",
+   "bytes": 214032,
+   "sha256": "21f4e78141e73bb9a35edb96a0167221127d1c202b44d9758f0533a1d93fd08e",
+   "subject": "47"
+  },
+  {
+   "file": "P047/Movements/movements_P047_C4S1_M1.csv",
+   "bytes": 2410,
+   "sha256": "712cc1c67329c09a832336e35ff7a2ec91fb6057820606c06208b0805a0871fa",
+   "subject": "1"
+  },
+  {
+   "file": "P047/Movements/movements_P047_C4S1_M1.mp4",
+   "bytes": 266232,
+   "sha256": "da97b69a813c92e664500f5a4aa8fdd51794758efe68a617bd44892bcb2a47c1",
+   "subject": "1"
+  }
+ ]
+}
