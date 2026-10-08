@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Schrag2026Pediatric: pediatric SSVEP-BCI dataset in children and adolescents",
+  "description": "A pediatric steady-state visual evoked potential (SSVEP) brain-computer interface dataset from 47 healthy, BCI-naive children and adolescents aged 5-18. Participants completed a stimulus personalization and comfort-rating procedure, then played an online four-target SSVEP-controlled game with both a personalized and a standard high-contrast stimulus. EEG was recorded from 16 channels at 256 Hz, with fbCCA classifier outputs used for online control. Note that only 12 trials per game session are ground-truth target events; the labels of the remaining trials are fbCCA classifier outputs rather than ground truth.",
+  "methods_description": "EEG was recorded with a g.tec g.USBamp and g.GAMMAcap (16 active Ag/AgCl wet electrodes, 256 Hz, earlobe reference, Fpz ground). Each participant first completed a personalization stage of 12 stimuli at 10 Hz (5 s on, 5 s baseline, pairwise comfort ratings). Each then played an online 4-target SSVEP game twice, once with a personal stimulus and once with a standard stimulus, using targets at 6.25, 10, 11.11 and 14.28 Hz. Stimuli were presented with Unity3D and BCI-Essentials, and fbCCA was used for classification.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Emily Schrag": {
       "orcid": "0009-0000-1607-2621"
@@ -15,6 +20,39 @@
       "orcid": "0000-0002-5163-3073"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "stimulus personalization"
+    },
+    {
+      "term": "children"
+    },
+    {
+      "term": "adolescents"
+    },
+    {
+      "term": "comfort"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.21203/rs.3.rs-9347306/v1",
@@ -52,53 +90,24 @@
       "relation_type": "References"
     }
   ],
-  "title": "Schrag2026Pediatric: pediatric SSVEP-BCI dataset in children and adolescents",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "255 MB (77 files)"
+    "1.73 GB (526 files)"
   ],
   "formats": [
+    ".csv",
     ".edf",
     ".json",
+    ".md",
+    ".mp4",
     ".tsv",
-    ".yaml"
+    ".xdf",
+    ".yaml",
+    ".yml"
   ],
-  "description": "A pediatric steady-state visual evoked potential (SSVEP) brain-computer interface dataset recorded from 47 healthy, BCI-naive children and adolescents aged 5-18 years. Each participant completed a stimulus personalization and comfort-rating pipeline, then played an online four-target SSVEP-controlled navigation game twice, once with a personalized stimulus and once with a standard high-contrast stimulus. Sixteen-channel EEG was recorded at 256 Hz, and events are annotated with HED tags. The data are raw and unpreprocessed. Only 12 trials per session are ground-truth target events; the remaining trial labels are filter-bank CCA classifier outputs rather than ground truth.",
-  "methods_description": "16-channel wet Ag/AgCl EEG (g.tec g.USBamp, g.GAMMAcap, 10-20 montage, earlobe reference, Fpz ground) recorded at 256 Hz in a single session of two runs. Stimuli flickered at 6.25, 10, 11.11 and 14.28 Hz in a Unity3D/BCI-Essentials game with online filter-bank CCA classification and visual feedback. Personalization involved 12 stimuli at 10 Hz with pairwise comfort comparisons.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "steady-state visual evoked potential"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "pediatric"
-    },
-    {
-      "term": "children and adolescents"
-    },
-    {
-      "term": "stimulus personalization"
-    },
-    {
-      "term": "comfort"
-    }
-  ],
-  "source_hash": "c2dff015e91b1cdcf527b40f456fc73d3db0fe542bddfb1c2079cfc8dd56bdb8"
+  "source_hash": "bf8425dfd35d28d7e626b345fe8072917baa7e9ce153073e98676fcf7d964047"
 }
